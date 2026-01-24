@@ -1,0 +1,927 @@
+[06/17 06:29:36.725057][debug][13573][Context.cpp:30] Context creating, work_dir=/home/ubuntu/ros2_ws/src/peripherals/launch
+[06/17 06:29:36.725166][debug][13573][Context.cpp:49] Config file version=1.1
+[06/17 06:29:36.725220][debug][13573][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[06/17 06:29:36.725253][info][13573][Context.cpp:68] Context created with config: /home/ubuntu/third_party_ros2/third_party_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[06/17 06:29:36.727074][info][13573][Context.cpp:73] Work directory=/home/ubuntu/ros2_ws/src/peripherals/launch, SDK version=v1.10.5-20240511-7dc8be9
+[06/17 06:29:36.728564][debug][13573][DeviceManager.cpp:30] DeviceManager init ...
+[06/17 06:29:36.728584][info][13573][LinuxPal.cpp:31] createObPal: create LinuxPal!
+[06/17 06:29:36.733444][debug][13573][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[06/17 06:29:36.819995][debug][13573][EnumeratorLibusb.cpp:322] queryDevicesInfo done!
+[06/17 06:29:36.820051][debug][13573][UsbDeviceEnumerator.cpp:160] Current usb device port list:
+[06/17 06:29:36.820073][debug][13573][UsbDeviceEnumerator.cpp:163]  - 1-2.1.1-39.0 | USB Camera
+[06/17 06:29:36.820085][debug][13573][UsbDeviceEnumerator.cpp:163]  - 1-2.1.2-40.0 | Orbbec(R) Astra(TM) 3D Camera(F) Depth
+[06/17 06:29:36.820158][warning][13573][OpenNIDeviceInfo.cpp:186] New openni device matched.
+[06/17 06:29:36.820783][info][13573][LinuxPal.cpp:142] Create PollingDeviceWatcher!
+[06/17 06:29:36.820837][debug][13573][UsbDeviceEnumerator.cpp:68] Found 1 device(s):
+[06/17 06:29:36.820855][debug][13573][UsbDeviceEnumerator.cpp:71]   - Name: SV1301S_U3, PID: 0x0614, SN/ID: , connection: USB2.0
+[06/17 06:29:36.820878][info][13573][DeviceManager.cpp:15] Current found device(s): (1)
+[06/17 06:29:36.820900][info][13573][DeviceManager.cpp:24] 	- Name: SV1301S_U3, PID: 0x0614, SN/ID: , Connection: USB2.0
+[06/17 06:29:36.820916][debug][13573][DeviceManager.cpp:52] DeviceManager construct done!
+[06/17 06:29:36.823527][info][13573][DeviceManager.cpp:304] Enable net device enumeration: false
+[06/17 06:29:36.926397][debug][13588][DeviceManager.cpp:109] DeviceManager  createDevice...
+[06/17 06:29:36.926511][debug][13588][UsbDeviceEnumerator.cpp:281] UsbDeviceEnumerator createDevice...
+[06/17 06:29:36.930144][info][13588][OpenNIHostProtocol.cpp:567] Hardware versions: FW=5.8.23 (14), HW=0, Chip=7, Sensor=0, SYS=12
+[06/17 06:29:36.930539][error][13588][OpenNIHostProtocol.cpp:584] Get usb core type failed!
+[06/17 06:29:36.930569][debug][13588][OpenNIHostProtocol.cpp:665] Requesting KeepAlive...
+[06/17 06:29:36.930959][debug][13588][OpenNIHostProtocol.cpp:672] Got KeepAlive Reply.
+[06/17 06:29:36.932444][debug][13588][OpenNIHostProtocol.cpp:665] Requesting KeepAlive...
+[06/17 06:29:36.932944][debug][13588][OpenNIHostProtocol.cpp:672] Got KeepAlive Reply.
+[06/17 06:29:36.932980][debug][13588][OpenNIHostProtocol.cpp:690] Getting the fixed params...
+[06/17 06:29:36.933454][debug][13588][OpenNIHostProtocol.cpp:730] Reading sensor serial number...
+[06/17 06:29:36.933826][info][13588][OpenNISensorFirmware.cpp:1185] Sensor serial number:AY2MC3101VT
+[06/17 06:29:36.934318][debug][13588][OpenNIHostProtocol.cpp:802] Reading sensor platform string...
+[06/17 06:29:36.934649][info][13588][OpenNISensorFirmware.cpp:1213] Firmware version RD3013
+[06/17 06:29:36.934972][info][13588][OpenNISensorFirmware.cpp:1219] Device frequency 50
+[06/17 06:29:36.934998][debug][13588][OpenNIHostProtocol.cpp:879] Update supported depth video modes from firmware
+[06/17 06:29:36.935024][debug][13588][OpenNIHostProtocol.cpp:915] Reading CMOS 1 supported presets...
+[06/17 06:29:36.935344][debug][13588][OpenNIHostProtocol.cpp:879] Update supported depth video modes from firmware
+[06/17 06:29:36.935373][debug][13588][OpenNIHostProtocol.cpp:915] Reading CMOS 2 supported presets...
+[06/17 06:29:36.945738][debug][13588][OpenNISensorParams.cpp:110] set property DepthMirror(0)
+[06/17 06:29:36.946353][debug][13588][OpenNISensorParams.cpp:121] DepthMirror(0)was successfully set.
+[06/17 06:29:36.946460][debug][13588][OpenNISensorFirmware.cpp:1231] OpenNI camera params read.
+[06/17 06:29:36.999400][debug][13588][OpenNISensorFirmware.cpp:2053] OpenNI camera params read end.
+[06/17 06:29:37.000053][error][13588][OpenNIHostProtocol.cpp:957] Host Protocol sub cmd not supported!
+[06/17 06:29:37.000099][warning][13588][OpenNISensorFirmware.cpp:153] OpenNI2 camera don't support Watchdog function!
+[06/17 06:29:37.000114][debug][13588][OpenNISensorIO.cpp:29] Opening endpoint 0x81 for depth...
+[06/17 06:29:37.000129][debug][13588][OpenNISensorIO.cpp:41] Depth endpoint(0x81) was successfully opened.
+[06/17 06:29:37.000144][debug][13588][OpenNISensorIO.cpp:48] Opening endpoint 0x82 for IR...
+[06/17 06:29:37.000156][debug][13588][OpenNISensorIO.cpp:54] IR endpoint(0x82) was successfully opened.
+[06/17 06:29:37.000166][debug][13588][OpenNISensorIO.cpp:60] Opening endpoint 0x84  for image...
+[06/17 06:29:37.000176][debug][13588][OpenNISensorIO.cpp:65] Image endpoint is not supported...
+[06/17 06:29:37.000185][debug][13588][OpenNISensorIO.cpp:75] Opening endpoint 0x83 for misc...
+[06/17 06:29:37.000195][debug][13588][OpenNISensorIO.cpp:80] Misc endpoint is not supported...
+[06/17 06:29:37.000204][debug][13588][OpenNISensorIO.cpp:87] Endpoints open end.
+[06/17 06:29:37.000220][debug][13588][VendorCommand.cpp:196] VendorCommand constructor 7f5c0036a0
+[06/17 06:29:37.000234][debug][13588][OpenNIDevice.cpp:190] init sensor map start!
+[06/17 06:29:37.000253][debug][13588][OpenNIDevice.cpp:204] init sensor map done!
+[06/17 06:29:37.000374][debug][13588][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1000, dataLen: 164
+[06/17 06:29:37.000415][info][13588][AbstractDevice.cpp:117] 	- Firmware version: RD3013
+[06/17 06:29:37.000692][debug][13588][OpenNIDevice.cpp:244] Init depth process param start!
+[06/17 06:29:37.000768][debug][13588][OpenNIDevice.cpp:259] Device baseline: 39.93872, fx:950.5437622070312
+[06/17 06:29:37.000787][debug][13588][OpenNIDevice.cpp:290] Init depth process param done!
+[06/17 06:29:37.000811][info][13588][OpenNIDevice.cpp:37] OpenNI device created! PID: 0x0614, SN: AY2MC3101VT
+[06/17 06:29:37.000827][debug][13588][UsbDeviceEnumerator.cpp:343] Device created successfully! Name: SV1301S_U3, PID: 0x0614, SN/ID: 
+[06/17 06:29:37.000843][info][13588][DeviceManager.cpp:150] Device created successfully! Name: SV1301S_U3, PID: 0x0614, SN/ID: 
+[06/17 06:29:37.001096][debug][13588][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[06/17 06:29:37.046409][debug][13588][FrameProcessor.cpp:82] FrameProcessor init with 2 blocks! @547004403792
+[06/17 06:29:37.046510][debug][13588][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[06/17 06:29:37.046537][debug][13588][FrameProcessor.cpp:90]  - block: FrameUnpacker, status: enable
+[06/17 06:29:37.046572][debug][13588][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[06/17 06:29:37.046590][debug][13588][FrameProcessor.cpp:90]  - block: FrameMirror, status: disable
+[06/17 06:29:37.046611][info][13588][OpenNIDevice.cpp:509] IR sensor has been created!
+[06/17 06:29:37.046700][debug][13588][OpenNIVideoSensor.cpp:857] Query stream profile! size= 12, sensorType=OB_SENSOR_IR
+[06/17 06:29:37.046739][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 640, height: 400, fps: 30}
+[06/17 06:29:37.046759][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 320, height: 200, fps: 5}
+[06/17 06:29:37.046774][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 320, height: 200, fps: 10}
+[06/17 06:29:37.046788][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 320, height: 200, fps: 15}
+[06/17 06:29:37.046801][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 320, height: 200, fps: 30}
+[06/17 06:29:37.046814][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 320, height: 200, fps: 60}
+[06/17 06:29:37.046853][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 640, height: 400, fps: 5}
+[06/17 06:29:37.046869][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 640, height: 400, fps: 10}
+[06/17 06:29:37.046883][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 640, height: 400, fps: 15}
+[06/17 06:29:37.046896][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 640, height: 400, fps: 60}
+[06/17 06:29:37.046909][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 1280, height: 800, fps: 15}
+[06/17 06:29:37.046924][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 1280, height: 800, fps: 30}
+[06/17 06:29:37.047011][debug][13588][LinuxPal.cpp:260] Uvc backend have been set to LibUVC(1)
+[06/17 06:29:37.118737][debug][13588][ObLibuvcDevicePort.cpp:58] uvc_open success
+[06/17 06:29:37.118785][debug][13588][LinuxPal.cpp:103] UVC device have been create with LibUVC backend! dev: 1-2.1.1-39, inf: 1-2.1.1-39.0
+[06/17 06:29:37.118810][debug][13588][FrameProcessor.cpp:82] FrameProcessor init with 1 blocks! @547004502832
+[06/17 06:29:37.118852][debug][13588][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[06/17 06:29:37.118871][debug][13588][FrameProcessor.cpp:90]  - block: FormatConverter, status: disable
+[06/17 06:29:37.118890][debug][13588][VideoSensor.cpp:250] VideoSensor construct!
+[06/17 06:29:37.118937][debug][13588][VideoSensor.cpp:261] stream profile size= 7, SensorType=OB_SENSOR_COLOR
+[06/17 06:29:37.118963][debug][13588][VideoSensor.cpp:263]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 30}
+[06/17 06:29:37.118979][debug][13588][VideoSensor.cpp:263]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 30}
+[06/17 06:29:37.118995][debug][13588][VideoSensor.cpp:263]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 30}
+[06/17 06:29:37.119008][debug][13588][VideoSensor.cpp:263]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 60}
+[06/17 06:29:37.119021][debug][13588][VideoSensor.cpp:263]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 15}
+[06/17 06:29:37.119035][debug][13588][VideoSensor.cpp:263]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 10}
+[06/17 06:29:37.119048][debug][13588][VideoSensor.cpp:263]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 5}
+[06/17 06:29:37.119074][debug][13588][VideoSensor.cpp:276] VideoSensor created, @OB_SENSOR_COLOR
+[06/17 06:29:37.119087][info][13588][OpenNIDevice.cpp:460] Color sensor has been created!
+[06/17 06:29:37.119135][debug][13588][FrameProcessor.cpp:82] FrameProcessor init with 5 blocks! @547004533792
+[06/17 06:29:37.119168][debug][13588][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[06/17 06:29:37.119183][debug][13588][FrameProcessor.cpp:90]  - block: FrameUnpacker, status: enable
+[06/17 06:29:37.119203][debug][13588][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[06/17 06:29:37.119218][debug][13588][FrameProcessor.cpp:90]  - block: FrameSoftFilter, status: enable
+[06/17 06:29:37.119239][debug][13588][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[06/17 06:29:37.119254][debug][13588][FrameProcessor.cpp:90]  - block: Disparity2DepthConverter, status: enable
+[06/17 06:29:37.119275][debug][13588][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[06/17 06:29:37.119290][debug][13588][FrameProcessor.cpp:90]  - block: D2CFilter, status: disable
+[06/17 06:29:37.119325][debug][13588][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[06/17 06:29:37.119342][debug][13588][FrameProcessor.cpp:90]  - block: PostProcessFilter, status: disable
+[06/17 06:29:37.119951][info][13588][OpenNIDevice.cpp:374] Depth sensor has been created!
+[06/17 06:29:37.120150][debug][13588][OpenNIVideoSensor.cpp:857] Query stream profile! size= 24, sensorType=OB_SENSOR_DEPTH
+[06/17 06:29:37.120183][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 640, height: 400, fps: 30}
+[06/17 06:29:37.120199][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 320, height: 200, fps: 5}
+[06/17 06:29:37.120215][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 320, height: 200, fps: 5}
+[06/17 06:29:37.120228][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 320, height: 200, fps: 10}
+[06/17 06:29:37.120241][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 320, height: 200, fps: 10}
+[06/17 06:29:37.120255][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 320, height: 200, fps: 15}
+[06/17 06:29:37.120270][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 320, height: 200, fps: 15}
+[06/17 06:29:37.120284][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 320, height: 200, fps: 30}
+[06/17 06:29:37.120299][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 320, height: 200, fps: 30}
+[06/17 06:29:37.120313][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 320, height: 200, fps: 60}
+[06/17 06:29:37.120329][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 320, height: 200, fps: 60}
+[06/17 06:29:37.120343][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 640, height: 400, fps: 5}
+[06/17 06:29:37.120358][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 640, height: 400, fps: 5}
+[06/17 06:29:37.120372][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 640, height: 400, fps: 10}
+[06/17 06:29:37.120386][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 640, height: 400, fps: 10}
+[06/17 06:29:37.120401][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 640, height: 400, fps: 15}
+[06/17 06:29:37.120415][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 640, height: 400, fps: 15}
+[06/17 06:29:37.120429][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 640, height: 400, fps: 30}
+[06/17 06:29:37.120444][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 640, height: 400, fps: 60}
+[06/17 06:29:37.120458][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 640, height: 400, fps: 60}
+[06/17 06:29:37.120472][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 1280, height: 800, fps: 15}
+[06/17 06:29:37.120486][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 1280, height: 800, fps: 15}
+[06/17 06:29:37.120499][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 1280, height: 800, fps: 30}
+[06/17 06:29:37.120513][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 1280, height: 800, fps: 30}
+[06/17 06:29:37.120648][debug][13588][OpenNISensorParams.cpp:110] set property DepthMirror(0)
+[06/17 06:29:37.121232][debug][13588][OpenNISensorParams.cpp:121] DepthMirror(0)was successfully set.
+[06/17 06:29:37.121330][debug][13588][PropertyAccessor.cpp:17] set property value success! propertyId: 14, value: {intValue: 0, floatValue: 0}
+[06/17 06:29:37.121415][debug][13588][FrameProcessor.cpp:202] setPropertyValue id=18, value={intValue: 0, floatValue: 0}
+[06/17 06:29:37.121447][debug][13588][PropertyAccessor.cpp:17] set property value success! propertyId: 18, value: {intValue: 0, floatValue: 0}
+[06/17 06:29:37.121489][debug][13588][PropertyAccessor.cpp:17] set property value success! propertyId: 24, value: {intValue: 1, floatValue: 1.4013e-45}
+[06/17 06:29:37.121528][debug][13588][ObLibuvcDevicePort.cpp:336] ObLibuvcDevicePort::uvcCtrlValueTranslate propertyId=1, action=2000, value=1
+[06/17 06:29:37.121856][debug][13588][ObLibuvcDevicePort.cpp:368] UVC_SET_CUR: getAERes:9.
+[06/17 06:29:37.121888][debug][13588][ObLibuvcDevicePort.cpp:372] UVC_AE_MODE_D0_MANUAL:translated_value:8,value:1.
+[06/17 06:29:37.122312][debug][13588][ObLibuvcDevicePort.cpp:209] ObLibuvcDevicePort::setPu() propertyId = 2000 value = 
+[06/17 06:29:37.122377][debug][13588][PropertyAccessor.cpp:17] set property value success! propertyId: 2000, value: {intValue: 1, floatValue: 1.4013e-45}
+[06/17 06:29:37.122456][debug][13588][PropertyAccessor.cpp:28] get property value success! propertyId: 40, value: {intValue: 16, floatValue: 2.24208e-44}
+[06/17 06:29:37.122494][debug][13588][PropertyAccessor.cpp:28] get property value success! propertyId: 41, value: {intValue: 480, floatValue: 6.72623e-43}
+[06/17 06:29:37.122535][debug][13588][OpenNIVideoSensor.cpp:857] Query stream profile! size= 24, sensorType=OB_SENSOR_DEPTH
+[06/17 06:29:37.122559][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 640, height: 400, fps: 30}
+[06/17 06:29:37.122575][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 320, height: 200, fps: 5}
+[06/17 06:29:37.122589][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 320, height: 200, fps: 5}
+[06/17 06:29:37.122603][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 320, height: 200, fps: 10}
+[06/17 06:29:37.122618][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 320, height: 200, fps: 10}
+[06/17 06:29:37.122631][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 320, height: 200, fps: 15}
+[06/17 06:29:37.122645][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 320, height: 200, fps: 15}
+[06/17 06:29:37.122659][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 320, height: 200, fps: 30}
+[06/17 06:29:37.122673][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 320, height: 200, fps: 30}
+[06/17 06:29:37.122686][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 320, height: 200, fps: 60}
+[06/17 06:29:37.122700][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 320, height: 200, fps: 60}
+[06/17 06:29:37.122714][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 640, height: 400, fps: 5}
+[06/17 06:29:37.122728][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 640, height: 400, fps: 5}
+[06/17 06:29:37.122742][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 640, height: 400, fps: 10}
+[06/17 06:29:37.122755][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 640, height: 400, fps: 10}
+[06/17 06:29:37.122769][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 640, height: 400, fps: 15}
+[06/17 06:29:37.122783][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 640, height: 400, fps: 15}
+[06/17 06:29:37.122796][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 640, height: 400, fps: 30}
+[06/17 06:29:37.122834][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 640, height: 400, fps: 60}
+[06/17 06:29:37.122852][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 640, height: 400, fps: 60}
+[06/17 06:29:37.122866][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 1280, height: 800, fps: 15}
+[06/17 06:29:37.122881][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 1280, height: 800, fps: 15}
+[06/17 06:29:37.122896][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 1280, height: 800, fps: 30}
+[06/17 06:29:37.122910][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 1280, height: 800, fps: 30}
+[06/17 06:29:37.123892][debug][13588][OpenNIVideoSensor.cpp:857] Query stream profile! size= 12, sensorType=OB_SENSOR_IR
+[06/17 06:29:37.123936][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 640, height: 400, fps: 30}
+[06/17 06:29:37.123953][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 320, height: 200, fps: 5}
+[06/17 06:29:37.123966][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 320, height: 200, fps: 10}
+[06/17 06:29:37.123979][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 320, height: 200, fps: 15}
+[06/17 06:29:37.123992][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 320, height: 200, fps: 30}
+[06/17 06:29:37.124005][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 320, height: 200, fps: 60}
+[06/17 06:29:37.124018][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 640, height: 400, fps: 5}
+[06/17 06:29:37.124032][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 640, height: 400, fps: 10}
+[06/17 06:29:37.124045][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 640, height: 400, fps: 15}
+[06/17 06:29:37.124058][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 640, height: 400, fps: 60}
+[06/17 06:29:37.124071][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 1280, height: 800, fps: 15}
+[06/17 06:29:37.124084][debug][13588][OpenNIVideoSensor.cpp:859]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 1280, height: 800, fps: 30}
+[06/17 06:29:37.292320][debug][13588][Pipeline.cpp:29] Pipeline init ...
+[06/17 06:29:37.292435][debug][13588][Pipeline.cpp:168] loadFrameQueueSizeConfig() config queue size: 10
+[06/17 06:29:37.292469][warning][13588][ObException.cpp:5] Current device does not support frame sync!
+[06/17 06:29:37.292602][warning][13588][Pipeline.cpp:45] Execute failure! A libobsensor_exception has occurred!
+	 - where:45#Pipeline
+	 - msg:Current device does not support frame sync!
+	 - type:N11libobsensor31unsupported_operation_exceptionE
+[06/17 06:29:37.292662][info][13588][Pipeline.cpp:47] Pipeline created with device: {name: SV1301S_U3, sn: AY2MC3101VT}, @0x7F5C296C10
+[06/17 06:29:37.293274][debug][13588][Pipeline.cpp:177] Pipeline start() start!
+[06/17 06:29:37.293901][debug][13588][PropertyAccessor.cpp:28] get property value success! propertyId: 14, value: {intValue: 0, floatValue: 0}
+[06/17 06:29:37.293952][debug][13588][PropertyAccessor.cpp:17] set property value success! propertyId: 63, value: {intValue: 0, floatValue: 0}
+[06/17 06:29:37.293990][debug][13588][FrameProcessingBlockManager.cpp:75]  FrameProcessingBlockManager started, 0 blocks contained!
+[06/17 06:29:37.294005][info][13588][Pipeline.cpp:237] Try to start streams!
+[06/17 06:29:37.294050][debug][13588][FrameMemoryPool.cpp:35] FrameMemoryPool created!
+[06/17 06:29:37.294072][debug][13588][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:N11libobsensor10DepthFrameE, obj addr:0x7f5c293300, frame obj total size:0.336MB
+[06/17 06:29:37.294084][debug][13588][FrameMemoryPool.cpp:59] DepthFrame bufferManager created!
+[06/17 06:29:37.294130][debug][13588][OpenNISensorStreams.cpp:79] Firmware stream Depth processor was replaced.
+[06/17 06:29:37.294268][debug][13588][FrameProcessor.cpp:136] Frame processor active blocks chain update: input ->FrameUnpacker -> FrameSoftFilter -> Disparity2DepthConverter -> output
+[06/17 06:29:37.294293][debug][13588][FrameProcessor.cpp:147] FrameProcessor started, 5 blocks contained!
+[06/17 06:29:37.297457][debug][13588][OpenNIVideoSensor.cpp:767] Creating USB Depth read thread... 
+[06/17 06:29:37.297499][debug][13588][OpenNIUSBLinux.cpp:112] Starting a USB read thread...
+[06/17 06:29:37.300597][debug][13588][OpenNISensorParams.cpp:110] set property DepthFormat(3)
+[06/17 06:29:37.302535][debug][13588][OpenNISensorParams.cpp:121] DepthFormat(3)was successfully set.
+[06/17 06:29:37.302586][debug][13588][OpenNISensorParams.cpp:110] set property DepthResolution(17)
+[06/17 06:29:37.303126][debug][13588][OpenNISensorParams.cpp:121] DepthResolution(17)was successfully set.
+[06/17 06:29:37.303157][debug][13588][OpenNISensorParams.cpp:110] set property DepthFPS(10)
+[06/17 06:29:37.305634][debug][13588][OpenNISensorParams.cpp:121] DepthFPS(10)was successfully set.
+[06/17 06:29:37.305675][debug][13588][OpenNISensorParams.cpp:110] set property DepthHoleFilter(1)
+[06/17 06:29:37.310848][debug][13588][OpenNISensorParams.cpp:121] DepthHoleFilter(1)was successfully set.
+[06/17 06:29:37.310892][debug][13588][OpenNISensorParams.cpp:110] set property Registration(0)
+[06/17 06:29:37.318359][debug][13588][OpenNISensorParams.cpp:121] Registration(0)was successfully set.
+[06/17 06:29:37.318405][debug][13588][OpenNISensorParams.cpp:110] set property DepthMirror(0)
+[06/17 06:29:37.324847][debug][13588][OpenNISensorParams.cpp:121] DepthMirror(0)was successfully set.
+[06/17 06:29:37.324894][debug][13588][OpenNISensorParams.cpp:110] set property Stream1Mode(2)
+[06/17 06:29:37.329043][debug][13588][OpenNISensorParams.cpp:121] Stream1Mode(2)was successfully set.
+[06/17 06:29:37.329088][debug][13588][OpenNISensorParams.cpp:110] set property DepthCropEnabled(0)
+[06/17 06:29:37.331641][debug][13588][OpenNISensorParams.cpp:121] DepthCropEnabled(0)was successfully set.
+[06/17 06:29:37.331690][debug][13588][OpenNISensorParams.cpp:110] set property FrameSync(0)
+[06/17 06:29:37.337223][debug][13588][OpenNISensorParams.cpp:121] FrameSync(0)was successfully set.
+[06/17 06:29:37.337286][debug][13588][OpenNIVideoSensor.cpp:546] Stream state changed to STREAM_STATE_STARTING. @OB_SENSOR_DEPTH
+[06/17 06:29:37.337308][debug][13588][Pipeline.cpp:248] Sensor stream started, sensorType=OB_SENSOR_DEPTH
+[06/17 06:29:37.337338][debug][13588][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:N11libobsensor7IRFrameE, obj addr:0x7f5c267ee0, frame obj total size:0.306MB
+[06/17 06:29:37.337352][debug][13588][FrameMemoryPool.cpp:71] IRFrame bufferManager created!
+[06/17 06:29:37.337410][debug][13588][OpenNISensorStreams.cpp:79] Firmware stream IR processor was replaced.
+[06/17 06:29:37.337439][debug][13588][FrameProcessor.cpp:136] Frame processor active blocks chain update: input ->FrameUnpacker -> output
+[06/17 06:29:37.337452][debug][13588][FrameProcessor.cpp:147] FrameProcessor started, 2 blocks contained!
+[06/17 06:29:37.337467][debug][13588][OpenNIVideoSensor.cpp:767] Creating USB IR read thread... 
+[06/17 06:29:37.337479][debug][13588][OpenNIUSBLinux.cpp:112] Starting a USB read thread...
+[06/17 06:29:37.342598][debug][13588][OpenNISensorParams.cpp:110] set property IRFormat(2)
+[06/17 06:29:37.345487][debug][13588][OpenNISensorParams.cpp:121] IRFormat(2)was successfully set.
+[06/17 06:29:37.345529][debug][13588][OpenNISensorParams.cpp:110] set property IRResolution(17)
+[06/17 06:29:37.350302][debug][13588][OpenNISensorParams.cpp:121] IRResolution(17)was successfully set.
+[06/17 06:29:37.350348][debug][13588][OpenNISensorParams.cpp:110] set property IRFPS(10)
+[06/17 06:29:37.353418][debug][13588][OpenNISensorParams.cpp:121] IRFPS(10)was successfully set.
+[06/17 06:29:37.353458][debug][13588][OpenNISensorParams.cpp:110] set property Stream0Mode(3)
+[06/17 06:29:37.355392][debug][13588][OpenNISensorParams.cpp:121] Stream0Mode(3)was successfully set.
+[06/17 06:29:37.355429][debug][13588][OpenNISensorParams.cpp:110] set property FrameSync(0)
+[06/17 06:29:37.361486][debug][13588][OpenNISensorParams.cpp:121] FrameSync(0)was successfully set.
+[06/17 06:29:37.361550][debug][13588][OpenNIVideoSensor.cpp:546] Stream state changed to STREAM_STATE_STARTING. @OB_SENSOR_IR
+[06/17 06:29:37.361569][debug][13588][Pipeline.cpp:248] Sensor stream started, sensorType=OB_SENSOR_IR
+[06/17 06:29:37.361585][debug][13588][VideoSensor.cpp:564] VideoSensor::start, @OB_SENSOR_COLOR
+[06/17 06:29:37.361612][debug][13588][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:N11libobsensor10ColorFrameE, obj addr:0x7f5c2b37a0, frame obj total size:0.293MB
+[06/17 06:29:37.361624][debug][13588][FrameMemoryPool.cpp:75] ColorFrame bufferManager created!
+[06/17 06:29:37.361642][debug][13588][FrameProcessor.cpp:136] Frame processor active blocks chain update: input -> output
+[06/17 06:29:37.361654][debug][13588][FrameProcessor.cpp:147] FrameProcessor started, 1 blocks contained!
+[06/17 06:29:37.361677][info][13588][VideoSensor.cpp:631] start OB_SENSOR_COLOR stream with profile: {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 30}, Backend Format: OB_FORMAT_MJPG
+[06/17 06:29:37.361689][debug][13588][ObLibuvcDevicePort.cpp:75] ObLibuvcDevicePort::startStream()...
+[06/17 06:29:37.361716][debug][13588][ObLibuvcDevicePort.cpp:90] playProfile: infIndex=0, selected_format.width=640, height=480, format=OB_FORMAT_MJPG
+[06/17 06:29:37.465179][debug][13593][FrameBufferManager.cpp:35] New frame buffer allocated=0.306MB, total usage: allocated=0.306MB, max limit=2048.000MB
+[06/17 06:29:37.465255][debug][13593][OpenNIVideoSensor.cpp:716] Stream state changed to STREAM_STATE_STREAMING. @OB_SENSOR_IR
+[06/17 06:29:37.465752][debug][13593][FrameProcessingBlock.cpp:59] FrameProcessingBlock@N11libobsensor13FrameUnpackerE process thread started!
+[06/17 06:29:37.466091][debug][13595][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:N11libobsensor7IRFrameE, obj addr:0x7f48000b70, frame obj total size:0.489MB
+[06/17 06:29:37.466130][debug][13595][FrameMemoryPool.cpp:71] IRFrame bufferManager created!
+[06/17 06:29:37.466170][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=0.794MB, max limit=2048.000MB
+[06/17 06:29:37.467156][debug][13595][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:N11libobsensor8FrameSetE, obj addr:0x7f48000d00, frame obj total size:0.000MB
+[06/17 06:29:37.467192][debug][13595][FrameMemoryPool.cpp:91] Frameset bufferManager created!
+[06/17 06:29:37.467239][debug][13595][Pipeline.cpp:268] Frame received on pipeline! type=OB_FRAME_IR
+[06/17 06:29:37.474449][debug][13592][FrameBufferManager.cpp:35] New frame buffer allocated=0.336MB, total usage: allocated=1.130MB, max limit=2048.000MB
+[06/17 06:29:37.474530][debug][13592][OpenNIVideoSensor.cpp:716] Stream state changed to STREAM_STATE_STREAMING. @OB_SENSOR_DEPTH
+[06/17 06:29:37.475144][debug][13592][FrameProcessingBlock.cpp:59] FrameProcessingBlock@N11libobsensor13FrameUnpackerE process thread started!
+[06/17 06:29:37.475550][debug][13596][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:N11libobsensor10DepthFrameE, obj addr:0x7f40000b70, frame obj total size:0.489MB
+[06/17 06:29:37.475581][debug][13596][FrameMemoryPool.cpp:59] DepthFrame bufferManager created!
+[06/17 06:29:37.475617][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=1.619MB, max limit=2048.000MB
+[06/17 06:29:37.476717][debug][13596][FrameProcessingBlock.cpp:59] FrameProcessingBlock@N11libobsensor15FrameSoftFilterE process thread started!
+[06/17 06:29:37.486406][debug][13597][FrameProcessingBlock.cpp:59] FrameProcessingBlock@N11libobsensor24Disparity2DepthConverterE process thread started!
+[06/17 06:29:37.494656][debug][13598][Pipeline.cpp:268] Frame received on pipeline! type=OB_FRAME_DEPTH
+[06/17 06:29:37.568010][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=2.108MB, max limit=2048.000MB
+[06/17 06:29:37.589542][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=2.597MB, max limit=2048.000MB
+[06/17 06:29:37.667282][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=3.085MB, max limit=2048.000MB
+[06/17 06:29:37.668143][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=3.086MB, max limit=2048.000MB
+[06/17 06:29:37.681825][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=3.575MB, max limit=2048.000MB
+[06/17 06:29:37.769539][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=4.063MB, max limit=2048.000MB
+[06/17 06:29:37.842206][debug][13588][ObLibuvcDevicePort.cpp:143] ObLibuvcDevicePort::startStream() done
+[06/17 06:29:37.842282][debug][13588][VideoSensor.cpp:657] Stream state changed to STREAM_STATE_STARTING. @OB_SENSOR_COLOR
+[06/17 06:29:37.842314][debug][13588][VideoSensor.cpp:659] Stream starting! @OB_SENSOR_COLOR
+[06/17 06:29:37.842331][debug][13588][Pipeline.cpp:248] Sensor stream started, sensorType=OB_SENSOR_COLOR
+[06/17 06:29:37.842342][info][13588][Pipeline.cpp:250] Start streams done!
+[06/17 06:29:37.842353][info][13588][Pipeline.cpp:226] Pipeline start done!
+[06/17 06:29:38.062125][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=4.357MB, max limit=2048.000MB
+[06/17 06:29:38.062228][debug][13601][VideoSensor.cpp:458] Stream state changed to STREAM_STATE_STREAMING. @OB_SENSOR_COLOR
+[06/17 06:29:38.075505][debug][13601][Pipeline.cpp:268] Frame received on pipeline! type=OB_FRAME_COLOR
+[06/17 06:29:38.198090][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=4.650MB, max limit=2048.000MB
+[06/17 06:29:38.230083][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=4.944MB, max limit=2048.000MB
+[06/17 06:29:38.292368][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:29:38.594257][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=4.944MB, max limit=2048.000MB
+[06/17 06:29:39.292326][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:29:40.292488][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:29:40.497621][debug][13595][Pipeline.cpp:268] Frame received on pipeline! type=OB_FRAME_IR [**30 logs in 3030ms**]
+[06/17 06:29:40.596947][debug][13600][Pipeline.cpp:268] Frame received on pipeline! type=OB_FRAME_DEPTH [**29 logs in 3102ms, last: 06:29:40.473324**]
+[06/17 06:29:40.656380][debug][13593][FrameBufferManager.cpp:35] New frame buffer allocated=0.306MB, total usage: allocated=5.250MB, max limit=2048.000MB
+[06/17 06:29:41.085953][debug][13601][Pipeline.cpp:268] Frame received on pipeline! type=OB_FRAME_COLOR [**83 logs in 3010ms**]
+[06/17 06:29:41.293027][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:29:42.292335][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:29:42.714302][debug][13601][Pipeline.cpp:272] Pipeline streaming... frameset output rate=26.753864fps
+[06/17 06:29:43.078007][debug][13601][VideoSensor.cpp:425] OB_SENSOR_COLOR Streaming... frameRate=28.713860fps
+[06/17 06:29:43.292344][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:29:44.292343][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:29:45.292305][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:29:46.292314][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:29:46.558939][debug][13595][Pipeline.cpp:268] Frame received on pipeline! type=OB_FRAME_IR [**61 logs in 6061ms**]
+[06/17 06:29:46.678841][debug][13598][Pipeline.cpp:268] Frame received on pipeline! type=OB_FRAME_DEPTH [**62 logs in 6081ms**]
+[06/17 06:29:47.098593][debug][13601][Pipeline.cpp:268] Frame received on pipeline! type=OB_FRAME_COLOR [**181 logs in 6012ms**]
+[06/17 06:29:47.292315][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:29:47.730243][debug][13601][Pipeline.cpp:272] Pipeline streaming... frameset output rate=30.103670fps
+[06/17 06:29:48.094150][debug][13601][VideoSensor.cpp:425] OB_SENSOR_COLOR Streaming... frameRate=30.097666fps
+[06/17 06:29:48.293330][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:29:49.292772][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:29:50.292443][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:29:51.292345][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:29:54.634926][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:29:52.746472][debug][13601][Pipeline.cpp:272] Pipeline streaming... frameset output rate=30.103670fps
+[06/17 06:29:53.143737][debug][13593][FrameBufferManager.cpp:35] New frame buffer allocated=0.306MB, total usage: allocated=5.555MB, max limit=2048.000MB
+[06/17 06:29:54.635529][debug][13601][VideoSensor.cpp:425] OB_SENSOR_COLOR Streaming... frameRate=21.556337fps
+[06/17 06:29:54.635616][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=5.849MB, max limit=2048.000MB
+[06/17 06:29:54.636790][debug][13593][FrameBufferManager.cpp:35] New frame buffer allocated=0.306MB, total usage: allocated=6.154MB, max limit=2048.000MB
+[06/17 06:29:54.637827][debug][13593][FrameBufferManager.cpp:35] New frame buffer allocated=0.306MB, total usage: allocated=6.460MB, max limit=2048.000MB
+[06/17 06:29:54.638352][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=6.949MB, max limit=2048.000MB
+[06/17 06:29:54.638571][debug][13592][FrameBufferManager.cpp:35] New frame buffer allocated=0.336MB, total usage: allocated=7.285MB, max limit=2048.000MB
+[06/17 06:29:54.639967][debug][13592][FrameBufferManager.cpp:35] New frame buffer allocated=0.336MB, total usage: allocated=7.621MB, max limit=2048.000MB
+[06/17 06:29:54.640156][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=8.110MB, max limit=2048.000MB
+[06/17 06:29:54.641863][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=8.598MB, max limit=2048.000MB
+[06/17 06:29:54.645375][debug][13593][FrameBufferManager.cpp:35] New frame buffer allocated=0.306MB, total usage: allocated=8.904MB, max limit=2048.000MB
+[06/17 06:29:54.647047][debug][13593][FrameBufferManager.cpp:35] New frame buffer allocated=0.306MB, total usage: allocated=9.210MB, max limit=2048.000MB
+[06/17 06:29:54.651872][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=9.698MB, max limit=2048.000MB
+[06/17 06:29:54.653896][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=10.187MB, max limit=2048.000MB
+[06/17 06:29:54.664290][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=10.676MB, max limit=2048.000MB
+[06/17 06:29:54.666967][debug][13592][OpenNIDataProcessor.cpp:28] Depth: Expected 17927, got 19147
+[06/17 06:29:54.667385][debug][13593][OpenNIDataProcessor.cpp:28] IR: Expected 17014, got 18184
+[06/17 06:29:54.678945][debug][13592][OpenNIFrameProcessor.cpp:96] Depth Frame Buffer overflow! current size: 351900
+[06/17 06:29:54.678997][debug][13592][OpenNIFrameProcessor.cpp:89] Depth frame is corrupt!
+[06/17 06:29:54.679009][error][13592][OpenNIPacketProcessor.cpp:18] Write buffer overflow!
+[06/17 06:29:54.736334][debug][13593][OpenNIPacketProcessor.cpp:32] Read: IR buffer is corrupt. Size is 274100 (!=320000)
+[06/17 06:29:54.736438][debug][13593][OpenNIFrameProcessor.cpp:89] IR frame is corrupt!
+[06/17 06:29:54.748649][debug][13592][OpenNIPacketProcessor.cpp:32] Read: Depth buffer is corrupt. Size is 351900 (!=352000)
+[06/17 06:29:55.292387][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:29:56.292475][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:29:57.292530][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:29:57.758504][debug][13601][Pipeline.cpp:272] Pipeline streaming... frameset output rate=20.750198fps
+[06/17 06:29:58.292313][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:29:58.612790][debug][13595][Pipeline.cpp:268] Frame received on pipeline! type=OB_FRAME_IR [**109 logs in 12053ms**]
+[06/17 06:29:58.758521][debug][13613][Pipeline.cpp:268] Frame received on pipeline! type=OB_FRAME_DEPTH [**108 logs in 12079ms, last: 06:29:58.642473**]
+[06/17 06:29:59.123605][debug][13601][Pipeline.cpp:268] Frame received on pipeline! type=OB_FRAME_COLOR [**307 logs in 12024ms**]
+[06/17 06:29:59.292327][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:29:59.654447][debug][13601][VideoSensor.cpp:425] OB_SENSOR_COLOR Streaming... frameRate=28.890217fps
+[06/17 06:30:00.294714][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:30:01.292387][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:30:02.292325][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:30:02.774457][debug][13601][Pipeline.cpp:272] Pipeline streaming... frameset output rate=28.907497fps
+[06/17 06:30:03.292369][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:30:04.292434][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:30:04.671194][debug][13601][VideoSensor.cpp:425] OB_SENSOR_COLOR Streaming... frameRate=30.097666fps
+[06/17 06:30:05.292679][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:30:06.292922][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:30:07.292485][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:30:07.791190][debug][13601][Pipeline.cpp:272] Pipeline streaming... frameset output rate=30.097666fps
+[06/17 06:30:08.292327][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:30:09.292497][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:30:09.682889][debug][13601][VideoSensor.cpp:425] OB_SENSOR_COLOR Streaming... frameRate=30.133705fps
+[06/17 06:30:10.292337][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:30:11.292490][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:30:12.293448][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:30:12.798487][debug][13598][Pipeline.cpp:272] Pipeline streaming... frameset output rate=30.157780fps
+[06/17 06:30:13.294484][warning][13573][ObException.cpp:5] Property is not supported! propertyId: 1003
+[06/17 06:30:14.267340][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=10.969MB, max limit=2048.000MB
+[06/17 06:30:14.432454][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=10.970MB, max limit=2048.000MB
+[06/17 06:30:14.433215][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=10.970MB, max limit=2048.000MB
+[06/17 06:30:14.433409][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=11.264MB, max limit=2048.000MB
+[06/17 06:30:14.434855][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=11.557MB, max limit=2048.000MB
+[06/17 06:30:14.434965][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=11.557MB, max limit=2048.000MB
+[06/17 06:30:14.466774][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=11.851MB, max limit=2048.000MB
+[06/17 06:30:14.466883][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=11.851MB, max limit=2048.000MB
+[06/17 06:30:14.496029][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=11.852MB, max limit=2048.000MB
+[06/17 06:30:14.502776][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=12.145MB, max limit=2048.000MB
+[06/17 06:30:14.535366][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=12.439MB, max limit=2048.000MB
+[06/17 06:30:14.535470][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=12.439MB, max limit=2048.000MB
+[06/17 06:30:14.566753][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=12.733MB, max limit=2048.000MB
+[06/17 06:30:14.566856][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=12.733MB, max limit=2048.000MB
+[06/17 06:30:14.571185][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=13.222MB, max limit=2048.000MB
+[06/17 06:30:14.587293][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=13.222MB, max limit=2048.000MB
+[06/17 06:30:14.600314][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=13.516MB, max limit=2048.000MB
+[06/17 06:30:14.634824][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=13.809MB, max limit=2048.000MB
+[06/17 06:30:14.634939][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=13.809MB, max limit=2048.000MB
+[06/17 06:30:14.667170][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=14.103MB, max limit=2048.000MB
+[06/17 06:30:14.667677][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=14.103MB, max limit=2048.000MB
+[06/17 06:30:14.673135][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=14.592MB, max limit=2048.000MB
+[06/17 06:30:14.698743][debug][13601][VideoSensor.cpp:425] OB_SENSOR_COLOR Streaming... frameRate=29.505583fps
+[06/17 06:30:14.698837][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=14.885MB, max limit=2048.000MB
+[06/17 06:30:14.698913][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=14.886MB, max limit=2048.000MB
+[06/17 06:30:14.707296][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=14.886MB, max limit=2048.000MB
+[06/17 06:30:14.735107][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=15.180MB, max limit=2048.000MB
+[06/17 06:30:14.770847][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=15.473MB, max limit=2048.000MB
+[06/17 06:30:14.770989][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=15.474MB, max limit=2048.000MB
+[06/17 06:30:14.774810][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=15.962MB, max limit=2048.000MB
+[06/17 06:30:14.794419][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=15.963MB, max limit=2048.000MB
+[06/17 06:30:14.798849][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=16.256MB, max limit=2048.000MB
+[06/17 06:30:14.836060][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=16.550MB, max limit=2048.000MB
+[06/17 06:30:14.836340][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=16.550MB, max limit=2048.000MB
+[06/17 06:30:14.866811][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=16.844MB, max limit=2048.000MB
+[06/17 06:30:14.866913][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=16.844MB, max limit=2048.000MB
+[06/17 06:30:14.876737][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=17.333MB, max limit=2048.000MB
+[06/17 06:30:14.886010][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=17.333MB, max limit=2048.000MB
+[06/17 06:30:14.898776][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=17.627MB, max limit=2048.000MB
+[06/17 06:30:14.930859][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=17.920MB, max limit=2048.000MB
+[06/17 06:30:14.930964][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=17.921MB, max limit=2048.000MB
+[06/17 06:30:14.967728][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=18.214MB, max limit=2048.000MB
+[06/17 06:30:14.967834][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=18.214MB, max limit=2048.000MB
+[06/17 06:30:14.976026][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=18.703MB, max limit=2048.000MB
+[06/17 06:30:14.998792][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=18.997MB, max limit=2048.000MB
+[06/17 06:30:14.998922][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=18.997MB, max limit=2048.000MB
+[06/17 06:30:15.003442][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=18.998MB, max limit=2048.000MB
+[06/17 06:30:15.031284][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=19.291MB, max limit=2048.000MB
+[06/17 06:30:15.067570][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=19.584MB, max limit=2048.000MB
+[06/17 06:30:15.067673][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=19.585MB, max limit=2048.000MB
+[06/17 06:30:15.078312][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=20.074MB, max limit=2048.000MB
+[06/17 06:30:15.086746][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=20.562MB, max limit=2048.000MB
+[06/17 06:30:15.091641][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=20.563MB, max limit=2048.000MB
+[06/17 06:30:15.099429][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=20.856MB, max limit=2048.000MB
+[06/17 06:30:15.130957][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=21.150MB, max limit=2048.000MB
+[06/17 06:30:15.131201][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=21.150MB, max limit=2048.000MB
+[06/17 06:30:15.170397][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=21.443MB, max limit=2048.000MB
+[06/17 06:30:15.170531][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=21.444MB, max limit=2048.000MB
+[06/17 06:30:15.179428][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=21.933MB, max limit=2048.000MB
+[06/17 06:30:15.181183][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=22.421MB, max limit=2048.000MB
+[06/17 06:30:15.186587][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=22.422MB, max limit=2048.000MB
+[06/17 06:30:15.198767][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=22.715MB, max limit=2048.000MB
+[06/17 06:30:15.230747][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=23.009MB, max limit=2048.000MB
+[06/17 06:30:15.230872][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=23.009MB, max limit=2048.000MB
+[06/17 06:30:15.268296][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=23.303MB, max limit=2048.000MB
+[06/17 06:30:15.268410][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=23.303MB, max limit=2048.000MB
+[06/17 06:30:15.280155][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=23.792MB, max limit=2048.000MB
+[06/17 06:30:15.292375][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=24.280MB, max limit=2048.000MB
+[06/17 06:30:15.297361][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=24.281MB, max limit=2048.000MB
+[06/17 06:30:15.298813][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=24.574MB, max limit=2048.000MB
+[06/17 06:30:15.331329][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=24.868MB, max limit=2048.000MB
+[06/17 06:30:15.331467][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=24.868MB, max limit=2048.000MB
+[06/17 06:30:15.363522][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=25.162MB, max limit=2048.000MB
+[06/17 06:30:15.363627][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=25.162MB, max limit=2048.000MB
+[06/17 06:30:15.381514][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=25.651MB, max limit=2048.000MB
+[06/17 06:30:15.384414][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=26.140MB, max limit=2048.000MB
+[06/17 06:30:15.388642][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=26.140MB, max limit=2048.000MB
+[06/17 06:30:15.398792][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=26.433MB, max limit=2048.000MB
+[06/17 06:30:15.430725][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=26.727MB, max limit=2048.000MB
+[06/17 06:30:15.430835][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=26.727MB, max limit=2048.000MB
+[06/17 06:30:15.465984][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=27.021MB, max limit=2048.000MB
+[06/17 06:30:15.466081][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=27.021MB, max limit=2048.000MB
+[06/17 06:30:15.476753][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=27.510MB, max limit=2048.000MB
+[06/17 06:30:15.482532][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=27.999MB, max limit=2048.000MB
+[06/17 06:30:15.483480][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=27.999MB, max limit=2048.000MB
+[06/17 06:30:15.503873][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=28.293MB, max limit=2048.000MB
+[06/17 06:30:15.530883][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=28.586MB, max limit=2048.000MB
+[06/17 06:30:15.531021][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=28.586MB, max limit=2048.000MB
+[06/17 06:30:15.563650][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=28.880MB, max limit=2048.000MB
+[06/17 06:30:15.563763][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=28.880MB, max limit=2048.000MB
+[06/17 06:30:15.585990][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=29.369MB, max limit=2048.000MB
+[06/17 06:30:15.590972][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=29.858MB, max limit=2048.000MB
+[06/17 06:30:15.596555][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=29.858MB, max limit=2048.000MB
+[06/17 06:30:15.598942][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=30.152MB, max limit=2048.000MB
+[06/17 06:30:15.634233][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=30.445MB, max limit=2048.000MB
+[06/17 06:30:15.634353][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=30.446MB, max limit=2048.000MB
+[06/17 06:30:15.662854][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=30.739MB, max limit=2048.000MB
+[06/17 06:30:15.662973][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=30.739MB, max limit=2048.000MB
+[06/17 06:30:15.683379][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=31.228MB, max limit=2048.000MB
+[06/17 06:30:15.686476][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=31.717MB, max limit=2048.000MB
+[06/17 06:30:15.692538][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=31.717MB, max limit=2048.000MB
+[06/17 06:30:15.694785][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=32.011MB, max limit=2048.000MB
+[06/17 06:30:15.730779][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=32.304MB, max limit=2048.000MB
+[06/17 06:30:15.730904][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=32.305MB, max limit=2048.000MB
+[06/17 06:30:15.763442][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=32.598MB, max limit=2048.000MB
+[06/17 06:30:15.763561][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=32.599MB, max limit=2048.000MB
+[06/17 06:30:15.775198][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=33.087MB, max limit=2048.000MB
+[06/17 06:30:15.786365][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=33.576MB, max limit=2048.000MB
+[06/17 06:30:15.787358][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=33.576MB, max limit=2048.000MB
+[06/17 06:30:15.794888][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=33.870MB, max limit=2048.000MB
+[06/17 06:30:15.831731][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=34.163MB, max limit=2048.000MB
+[06/17 06:30:15.831838][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=34.164MB, max limit=2048.000MB
+[06/17 06:30:15.860418][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=34.652MB, max limit=2048.000MB
+[06/17 06:30:15.864957][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=34.946MB, max limit=2048.000MB
+[06/17 06:30:15.865063][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=34.946MB, max limit=2048.000MB
+[06/17 06:30:15.888871][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=35.435MB, max limit=2048.000MB
+[06/17 06:30:15.893600][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=35.436MB, max limit=2048.000MB
+[06/17 06:30:15.895219][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=35.729MB, max limit=2048.000MB
+[06/17 06:30:15.930794][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=36.022MB, max limit=2048.000MB
+[06/17 06:30:15.930904][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=36.023MB, max limit=2048.000MB
+[06/17 06:30:15.962807][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=36.316MB, max limit=2048.000MB
+[06/17 06:30:15.962911][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=36.317MB, max limit=2048.000MB
+[06/17 06:30:15.964601][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=36.805MB, max limit=2048.000MB
+[06/17 06:30:15.981878][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=37.294MB, max limit=2048.000MB
+[06/17 06:30:15.988846][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=37.295MB, max limit=2048.000MB
+[06/17 06:30:15.995015][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=37.588MB, max limit=2048.000MB
+[06/17 06:30:16.029543][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=37.881MB, max limit=2048.000MB
+[06/17 06:30:16.029670][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=37.882MB, max limit=2048.000MB
+[06/17 06:30:16.063043][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=38.175MB, max limit=2048.000MB
+[06/17 06:30:16.063157][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=38.176MB, max limit=2048.000MB
+[06/17 06:30:16.066092][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=38.665MB, max limit=2048.000MB
+[06/17 06:30:16.069042][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=39.153MB, max limit=2048.000MB
+[06/17 06:30:16.075677][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=39.154MB, max limit=2048.000MB
+[06/17 06:30:16.095925][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=39.447MB, max limit=2048.000MB
+[06/17 06:30:16.127836][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=39.741MB, max limit=2048.000MB
+[06/17 06:30:16.127957][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=39.741MB, max limit=2048.000MB
+[06/17 06:30:16.163602][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=40.034MB, max limit=2048.000MB
+[06/17 06:30:16.163714][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=40.035MB, max limit=2048.000MB
+[06/17 06:30:16.170658][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=40.524MB, max limit=2048.000MB
+[06/17 06:30:16.188095][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=41.012MB, max limit=2048.000MB
+[06/17 06:30:16.193937][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=41.013MB, max limit=2048.000MB
+[06/17 06:30:16.197678][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=41.306MB, max limit=2048.000MB
+[06/17 06:30:16.227218][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=41.600MB, max limit=2048.000MB
+[06/17 06:30:16.227322][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=41.600MB, max limit=2048.000MB
+[06/17 06:30:16.262825][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=41.894MB, max limit=2048.000MB
+[06/17 06:30:16.262924][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=41.894MB, max limit=2048.000MB
+[06/17 06:30:16.268093][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=42.383MB, max limit=2048.000MB
+[06/17 06:30:16.282320][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=42.871MB, max limit=2048.000MB
+[06/17 06:30:16.286732][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=42.872MB, max limit=2048.000MB
+[06/17 06:30:16.294775][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=43.165MB, max limit=2048.000MB
+[06/17 06:30:16.326938][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=43.459MB, max limit=2048.000MB
+[06/17 06:30:16.327115][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=43.459MB, max limit=2048.000MB
+[06/17 06:30:16.366406][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=43.753MB, max limit=2048.000MB
+[06/17 06:30:16.366514][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=43.753MB, max limit=2048.000MB
+[06/17 06:30:16.370101][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=44.242MB, max limit=2048.000MB
+[06/17 06:30:16.392459][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=44.731MB, max limit=2048.000MB
+[06/17 06:30:16.402802][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=44.731MB, max limit=2048.000MB
+[06/17 06:30:16.403058][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=45.024MB, max limit=2048.000MB
+[06/17 06:30:16.426801][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=45.318MB, max limit=2048.000MB
+[06/17 06:30:16.426897][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=45.318MB, max limit=2048.000MB
+[06/17 06:30:16.459541][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=45.612MB, max limit=2048.000MB
+[06/17 06:30:16.459686][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=45.612MB, max limit=2048.000MB
+[06/17 06:30:16.470978][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=46.101MB, max limit=2048.000MB
+[06/17 06:30:16.485661][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=46.590MB, max limit=2048.000MB
+[06/17 06:30:16.491392][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=46.590MB, max limit=2048.000MB
+[06/17 06:30:16.494807][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=46.884MB, max limit=2048.000MB
+[06/17 06:30:16.526942][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=47.177MB, max limit=2048.000MB
+[06/17 06:30:16.527083][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=47.177MB, max limit=2048.000MB
+[06/17 06:30:16.563069][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=47.471MB, max limit=2048.000MB
+[06/17 06:30:16.563171][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=47.471MB, max limit=2048.000MB
+[06/17 06:30:16.573487][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=47.960MB, max limit=2048.000MB
+[06/17 06:30:16.577673][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=48.449MB, max limit=2048.000MB
+[06/17 06:30:16.587617][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=48.449MB, max limit=2048.000MB
+[06/17 06:30:16.594785][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=48.743MB, max limit=2048.000MB
+[06/17 06:30:16.627635][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=49.036MB, max limit=2048.000MB
+[06/17 06:30:16.627753][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=49.037MB, max limit=2048.000MB
+[06/17 06:30:16.660060][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=49.330MB, max limit=2048.000MB
+[06/17 06:30:16.660185][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=49.330MB, max limit=2048.000MB
+[06/17 06:30:16.674359][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=49.819MB, max limit=2048.000MB
+[06/17 06:30:16.694318][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=50.308MB, max limit=2048.000MB
+[06/17 06:30:16.698914][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=50.601MB, max limit=2048.000MB
+[06/17 06:30:16.699032][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=50.602MB, max limit=2048.000MB
+[06/17 06:30:16.699974][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=50.602MB, max limit=2048.000MB
+[06/17 06:30:16.729261][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=50.896MB, max limit=2048.000MB
+[06/17 06:30:16.765600][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=51.189MB, max limit=2048.000MB
+[06/17 06:30:16.765703][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=51.190MB, max limit=2048.000MB
+[06/17 06:30:16.774319][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=51.678MB, max limit=2048.000MB
+[06/17 06:30:16.783904][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=52.167MB, max limit=2048.000MB
+[06/17 06:30:16.788818][debug][13598][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=52.167MB, max limit=2048.000MB
+[06/17 06:30:16.790858][debug][13601][FrameBufferManager.cpp:35] New frame buffer allocated=0.293MB, total usage: allocated=52.461MB, max limit=2048.000MB
+[06/17 06:30:16.828966][info][13573][Pipeline.cpp:360] Try to stop pipeline!
+[06/17 06:30:16.829012][info][13573][Pipeline.cpp:332] Try to stop streams!
+[06/17 06:30:16.829037][debug][13573][VideoSensor.cpp:663] VideoSensor::stop, @OB_SENSOR_COLOR
+[06/17 06:30:16.829055][debug][13573][VideoSensor.cpp:686] Stream state changed to STREAM_STATE_STOPPING. @OB_SENSOR_COLOR
+[06/17 06:30:16.829070][debug][13573][ObLibuvcDevicePort.cpp:148] ObLibuvcDevicePort::stopStream()...
+[06/17 06:30:16.895199][debug][13596][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=52.950MB, max limit=2048.000MB
+[06/17 06:30:16.896191][debug][13595][FrameBufferManager.cpp:35] New frame buffer allocated=0.489MB, total usage: allocated=53.438MB, max limit=2048.000MB
+[06/17 06:30:16.975393][debug][13573][ObLibuvcDevicePort.cpp:174] ObLibuvcDevicePort::stopStream() done
+[06/17 06:30:16.975456][debug][13573][VideoSensor.cpp:712] stream stoped! @OB_SENSOR_COLOR
+[06/17 06:30:16.975473][debug][13573][FrameProcessor.cpp:157] FrameProcessor stoped!
+[06/17 06:30:16.975501][debug][13573][VideoSensor.cpp:701] Stream state changed to STREAM_STATE_STOPED. @OB_SENSOR_COLOR
+[06/17 06:30:16.975516][info][13573][VideoSensor.cpp:719] Video sensor stopped, @OB_SENSOR_COLOR
+[06/17 06:30:16.975530][info][13573][Pipeline.cpp:345] Sensor stream stopped, sensorType=OB_SENSOR_COLOR
+[06/17 06:30:16.975549][debug][13573][OpenNIVideoSensor.cpp:777] Shutting down USB IR read thread...
+[06/17 06:30:16.975561][debug][13573][OpenNIUSBLinux.cpp:344] Shutdown read thread...
+[06/17 06:30:16.977282][debug][13593][OpenNIUSBLinux.cpp:217] Cancel request transfer(0)...
+[06/17 06:30:16.977669][debug][13586][RequestLibusb.cpp:21] transfer cancelled!
+[06/17 06:30:17.080402][warning][13593][OpenNIUSBLinux.cpp:244] Endpoint  0x82, Buffer0: Failed waiting on asynch transfer event:OB_EVENT_TIMEOUT
+[06/17 06:30:17.080549][debug][13593][OpenNIUSBLinux.cpp:217] Cancel request transfer(5)...
+[06/17 06:30:17.081641][debug][13586][RequestLibusb.cpp:21] transfer cancelled!
+[06/17 06:30:17.181864][warning][13593][OpenNIUSBLinux.cpp:244] Endpoint  0x82, Buffer5: Failed waiting on asynch transfer event:OB_EVENT_TIMEOUT
+[06/17 06:30:17.181949][debug][13593][OpenNIDataProcessor.cpp:28] IR: Expected 41704, got 41811
+[06/17 06:30:17.182452][debug][13593][OpenNIPacketProcessor.cpp:32] Read: IR buffer is corrupt. Size is 69080 (!=320000)
+[06/17 06:30:17.182506][debug][13593][OpenNIFrameProcessor.cpp:89] IR frame is corrupt!
+[06/17 06:30:17.182685][debug][13593][OpenNIUSBLinux.cpp:217] Cancel request transfer(10)...
+[06/17 06:30:17.183248][debug][13586][RequestLibusb.cpp:21] transfer cancelled!
+[06/17 06:30:17.283265][warning][13593][OpenNIUSBLinux.cpp:244] Endpoint  0x82, Buffer10: Failed waiting on asynch transfer event:OB_EVENT_TIMEOUT
+[06/17 06:30:17.283452][debug][13593][OpenNIUSBLinux.cpp:217] Cancel request transfer(14)...
+[06/17 06:30:17.283886][debug][13586][RequestLibusb.cpp:21] transfer cancelled!
+[06/17 06:30:17.383909][warning][13593][OpenNIUSBLinux.cpp:244] Endpoint  0x82, Buffer14: Failed waiting on asynch transfer event:OB_EVENT_TIMEOUT
+[06/17 06:30:17.384021][warning][13593][OpenNIUSBLinux.cpp:203] exist(0) read thread(15)
+[06/17 06:30:17.384159][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:130, error:Broken pipe, number:32 
+[06/17 06:30:17.384201][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:130, error:Broken pipe, number:32 
+[06/17 06:30:17.384220][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:130, error:Broken pipe, number:32 
+[06/17 06:30:17.384266][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:130, error:Broken pipe, number:32 
+[06/17 06:30:17.384284][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:130, error:Broken pipe, number:32 
+[06/17 06:30:17.384300][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:130, error:Broken pipe, number:32 
+[06/17 06:30:17.384315][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:130, error:Broken pipe, number:32 
+[06/17 06:30:17.384331][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:130, error:Broken pipe, number:32 
+[06/17 06:30:17.384346][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:130, error:Broken pipe, number:32 
+[06/17 06:30:17.384361][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:130, error:Broken pipe, number:32 
+[06/17 06:30:17.384421][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:130, error:Broken pipe, number:32 
+[06/17 06:30:17.384457][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:130, error:Broken pipe, number:32 
+[06/17 06:30:17.384476][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:130, error:Broken pipe, number:32 
+[06/17 06:30:17.384491][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:130, error:Broken pipe, number:32 
+[06/17 06:30:17.384506][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:130, error:Broken pipe, number:32 
+[06/17 06:30:17.384522][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:130, error:Broken pipe, number:32 
+[06/17 06:30:17.384536][debug][13573][OpenNIUSBLinux.cpp:379] Shutdown read thread end...
+[06/17 06:30:17.384550][debug][13573][OpenNISensorParams.cpp:110] set property Stream0Mode(0)
+[06/17 06:30:17.386396][debug][13573][OpenNISensorParams.cpp:121] Stream0Mode(0)was successfully set.
+[06/17 06:30:17.386438][error][13573][OpenNIVideoSensor.cpp:686] OpenNI IR  stream stop failed!
+[06/17 06:30:17.387567][debug][13573][FrameProcessingBlock.cpp:74] Process thread stoped! N11libobsensor13FrameUnpackerE@0x7f5c029ab0 
+[06/17 06:30:17.387612][debug][13573][FrameProcessor.cpp:157] FrameProcessor stoped!
+[06/17 06:30:17.387697][debug][13573][OpenNISensorStreams.cpp:114] Erase FW Stream IR
+[06/17 06:30:17.387715][debug][13573][OpenNISensorStreams.cpp:124] released FW Stream strType
+[06/17 06:30:17.387730][error][13573][OpenNIVideoSensor.cpp:702] OpenNI IR stream stop completed.
+[06/17 06:30:17.387776][info][13573][Pipeline.cpp:345] Sensor stream stopped, sensorType=OB_SENSOR_IR
+[06/17 06:30:17.387802][debug][13573][OpenNIVideoSensor.cpp:777] Shutting down USB Depth read thread...
+[06/17 06:30:17.387813][debug][13573][OpenNIUSBLinux.cpp:344] Shutdown read thread...
+[06/17 06:30:17.422292][debug][13592][OpenNIUSBLinux.cpp:217] Cancel request transfer(4)...
+[06/17 06:30:17.422661][debug][13586][RequestLibusb.cpp:21] transfer cancelled!
+[06/17 06:30:17.522723][warning][13592][OpenNIUSBLinux.cpp:244] Endpoint  0x81, Buffer4: Failed waiting on asynch transfer event:OB_EVENT_TIMEOUT
+[06/17 06:30:17.522865][debug][13592][OpenNIUSBLinux.cpp:217] Cancel request transfer(9)...
+[06/17 06:30:17.523327][debug][13586][RequestLibusb.cpp:21] transfer cancelled!
+[06/17 06:30:17.623286][warning][13592][OpenNIUSBLinux.cpp:244] Endpoint  0x81, Buffer9: Failed waiting on asynch transfer event:OB_EVENT_TIMEOUT
+[06/17 06:30:17.623412][debug][13592][OpenNIDataProcessor.cpp:28] Depth: Expected 22, got 129
+[06/17 06:30:17.623558][debug][13592][OpenNIUSBLinux.cpp:217] Cancel request transfer(14)...
+[06/17 06:30:17.624066][debug][13586][RequestLibusb.cpp:21] transfer cancelled!
+[06/17 06:30:17.724589][warning][13592][OpenNIUSBLinux.cpp:244] Endpoint  0x81, Buffer14: Failed waiting on asynch transfer event:OB_EVENT_TIMEOUT
+[06/17 06:30:17.724795][warning][13592][OpenNIUSBLinux.cpp:203] exist(0) read thread(15)
+[06/17 06:30:17.724883][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:129, error:Broken pipe, number:32 
+[06/17 06:30:17.724920][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:129, error:Broken pipe, number:32 
+[06/17 06:30:17.724941][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:129, error:Broken pipe, number:32 
+[06/17 06:30:17.724959][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:129, error:Broken pipe, number:32 
+[06/17 06:30:17.724976][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:129, error:Broken pipe, number:32 
+[06/17 06:30:17.724993][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:129, error:Broken pipe, number:32 
+[06/17 06:30:17.725010][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:129, error:Broken pipe, number:32 
+[06/17 06:30:17.725027][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:129, error:Broken pipe, number:32 
+[06/17 06:30:17.725042][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:129, error:Broken pipe, number:32 
+[06/17 06:30:17.725059][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:129, error:Broken pipe, number:32 
+[06/17 06:30:17.725076][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:129, error:Broken pipe, number:32 
+[06/17 06:30:17.725091][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:129, error:Broken pipe, number:32 
+[06/17 06:30:17.725107][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:129, error:Broken pipe, number:32 
+[06/17 06:30:17.725122][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:129, error:Broken pipe, number:32 
+[06/17 06:30:17.725136][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:129, error:Broken pipe, number:32 
+[06/17 06:30:17.725151][warning][13573][MessengerLibusb.cpp:82] usb_request_cancel returned error, endpoint:129, error:Broken pipe, number:32 
+[06/17 06:30:17.725165][debug][13573][OpenNIUSBLinux.cpp:379] Shutdown read thread end...
+[06/17 06:30:17.725180][debug][13573][OpenNISensorParams.cpp:110] set property Stream1Mode(0)
+[06/17 06:30:17.727238][debug][13573][OpenNISensorParams.cpp:121] Stream1Mode(0)was successfully set.
+[06/17 06:30:17.727289][error][13573][OpenNIVideoSensor.cpp:686] OpenNI Depth  stream stop failed!
+[06/17 06:30:17.728444][debug][13573][FrameProcessingBlock.cpp:74] Process thread stoped! N11libobsensor13FrameUnpackerE@0x7f5c025410 
+[06/17 06:30:17.729813][debug][13573][FrameProcessingBlock.cpp:74] Process thread stoped! N11libobsensor15FrameSoftFilterE@0x7f5c025510 
+[06/17 06:30:17.730894][debug][13573][FrameProcessingBlock.cpp:74] Process thread stoped! N11libobsensor24Disparity2DepthConverterE@0x7f5c02d310 
+[06/17 06:30:17.730938][debug][13573][FrameProcessor.cpp:157] FrameProcessor stoped!
+[06/17 06:30:17.731057][debug][13573][OpenNISensorStreams.cpp:114] Erase FW Stream Depth
+[06/17 06:30:17.731081][debug][13573][OpenNISensorStreams.cpp:124] released FW Stream strType
+[06/17 06:30:17.731096][error][13573][OpenNIVideoSensor.cpp:702] OpenNI Depth stream stop completed.
+[06/17 06:30:17.731120][info][13573][Pipeline.cpp:345] Sensor stream stopped, sensorType=OB_SENSOR_DEPTH
+[06/17 06:30:17.731133][info][13573][Pipeline.cpp:351] Stop streams done!
+[06/17 06:30:17.731162][debug][13573][OpenNISensorParams.cpp:110] set property Registration(0)
+[06/17 06:30:17.738264][debug][13573][OpenNISensorParams.cpp:121] Registration(0)was successfully set.
+[06/17 06:30:17.738359][debug][13573][PropertyAccessor.cpp:17] set property value success! propertyId: 42, value: {intValue: 0, floatValue: 0}
+[06/17 06:30:17.738403][debug][13573][FrameProcessingBlockManager.cpp:84] FrameProcessingBlockManager stoped!
+[06/17 06:30:17.738443][debug][13573][FrameProcessingBlockManager.cpp:20] Processing block list cleared!
+[06/17 06:30:17.738458][info][13573][Pipeline.cpp:389] Stop pipeline done!
+[06/17 06:30:17.886244][debug][13573][Pipeline.cpp:68] Pipeline deInit start!
+[06/17 06:30:17.886299][info][13573][Pipeline.cpp:75] Pipeline destroyed! @0x7F5C296C10
+[06/17 06:30:17.889094][info][13573][OpenNIDevice.cpp:41] OpenNI device destroyed! PID: 0x0614, SN: AY2MC3101VT
+[06/17 06:30:17.889152][info][13573][OpenNIVideoSensor.cpp:1014] OpenNIVideoSensor destroyed! sensorType=OB_SENSOR_IR
+[06/17 06:30:17.889182][debug][13573][VideoSensor.cpp:280] VideoSensor::~VideoSensor(), @OB_SENSOR_COLOR
+[06/17 06:30:17.889201][info][13573][VideoSensor.cpp:301] VideoSensor destroyed, @OB_SENSOR_COLOR
+[06/17 06:30:17.889226][info][13573][OpenNIVideoSensor.cpp:1014] OpenNIVideoSensor destroyed! sensorType=OB_SENSOR_DEPTH
+[06/17 06:30:17.889276][debug][13573][FrameProcessor.cpp:797] try remove eventId: PropertyValueUpdate
+[06/17 06:30:17.889299][debug][13573][FrameProcessor.cpp:797] try remove eventId: DepthStreamProfileChanged
+[06/17 06:30:17.889325][debug][13573][FrameProcessor.cpp:103] FrameProcessor destroyed! @547004533792
+[06/17 06:30:17.897717][debug][13573][FrameProcessor.cpp:103] FrameProcessor destroyed! @547004502832
+[06/17 06:30:17.897771][debug][13573][ObLibuvcDevicePort.cpp:63] ~ObLibuvcDevicePort
+[06/17 06:30:17.933783][info][13573][ObLibuvcDevicePort.cpp:70] uvc_close done.
+[06/17 06:30:17.933829][info][13573][ObLibuvcDevicePort.cpp:71] ~ObLibuvcDevicePort done
+[06/17 06:30:17.934528][debug][13573][FrameProcessor.cpp:103] FrameProcessor destroyed! @547004403792
+[06/17 06:30:17.934578][debug][13573][VendorCommand.cpp:204] destructor 7f5c0036a0
+[06/17 06:30:17.934604][debug][13573][VendorCommand.cpp:451] disableHeartBeat heartBeatHelper_: 0
+[06/17 06:30:17.934619][debug][13573][HostProtocol.cpp:139] ~HostProtocol()
+[06/17 06:30:17.938334][debug][13591][HostProtocol.cpp:167] emitTranDataFutureSignalThread_ finish
+[06/17 06:30:17.939217][debug][13573][Context.cpp:84] Context destroying ...
+[06/17 06:30:17.939252][debug][13573][DeviceManager.cpp:56] DeviceManager destroy ...
+[06/17 06:30:17.939264][debug][13573][DeviceManager.cpp:64] DeviceManager Destructors done
+[06/17 06:30:18.941897][debug][13573][FrameBufferManager.hpp:72] FrameBufferManager destroying...! frame type: N11libobsensor8FrameSetE,  obj addr:0x7f48000d00
+[06/17 06:30:18.941955][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.438MB, max limit=2048.000MB
+[06/17 06:30:18.941972][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.437MB, max limit=2048.000MB
+[06/17 06:30:18.941986][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.437MB, max limit=2048.000MB
+[06/17 06:30:18.941999][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.436MB, max limit=2048.000MB
+[06/17 06:30:18.942011][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.436MB, max limit=2048.000MB
+[06/17 06:30:18.942024][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.435MB, max limit=2048.000MB
+[06/17 06:30:18.942036][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.435MB, max limit=2048.000MB
+[06/17 06:30:18.942048][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.435MB, max limit=2048.000MB
+[06/17 06:30:18.942060][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.434MB, max limit=2048.000MB
+[06/17 06:30:18.942073][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.434MB, max limit=2048.000MB
+[06/17 06:30:18.942085][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.433MB, max limit=2048.000MB
+[06/17 06:30:18.942122][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.433MB, max limit=2048.000MB
+[06/17 06:30:18.942135][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.432MB, max limit=2048.000MB
+[06/17 06:30:18.942149][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.432MB, max limit=2048.000MB
+[06/17 06:30:18.942161][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.431MB, max limit=2048.000MB
+[06/17 06:30:18.942247][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.431MB, max limit=2048.000MB
+[06/17 06:30:18.942274][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.430MB, max limit=2048.000MB
+[06/17 06:30:18.942287][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.430MB, max limit=2048.000MB
+[06/17 06:30:18.942301][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.429MB, max limit=2048.000MB
+[06/17 06:30:18.942315][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.429MB, max limit=2048.000MB
+[06/17 06:30:18.942328][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.428MB, max limit=2048.000MB
+[06/17 06:30:18.942340][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.428MB, max limit=2048.000MB
+[06/17 06:30:18.942352][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.427MB, max limit=2048.000MB
+[06/17 06:30:18.942364][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.427MB, max limit=2048.000MB
+[06/17 06:30:18.942377][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.427MB, max limit=2048.000MB
+[06/17 06:30:18.942389][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.426MB, max limit=2048.000MB
+[06/17 06:30:18.942401][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.426MB, max limit=2048.000MB
+[06/17 06:30:18.942413][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.425MB, max limit=2048.000MB
+[06/17 06:30:18.942425][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.425MB, max limit=2048.000MB
+[06/17 06:30:18.942437][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.424MB, max limit=2048.000MB
+[06/17 06:30:18.942449][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.424MB, max limit=2048.000MB
+[06/17 06:30:18.942462][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.423MB, max limit=2048.000MB
+[06/17 06:30:18.942475][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.423MB, max limit=2048.000MB
+[06/17 06:30:18.942487][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.422MB, max limit=2048.000MB
+[06/17 06:30:18.942499][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.422MB, max limit=2048.000MB
+[06/17 06:30:18.942511][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.421MB, max limit=2048.000MB
+[06/17 06:30:18.942523][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.421MB, max limit=2048.000MB
+[06/17 06:30:18.942535][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.420MB, max limit=2048.000MB
+[06/17 06:30:18.942564][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.420MB, max limit=2048.000MB
+[06/17 06:30:18.942577][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.419MB, max limit=2048.000MB
+[06/17 06:30:18.942589][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.419MB, max limit=2048.000MB
+[06/17 06:30:18.942600][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.418MB, max limit=2048.000MB
+[06/17 06:30:18.942612][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.418MB, max limit=2048.000MB
+[06/17 06:30:18.942623][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.418MB, max limit=2048.000MB
+[06/17 06:30:18.942635][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.417MB, max limit=2048.000MB
+[06/17 06:30:18.942648][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.417MB, max limit=2048.000MB
+[06/17 06:30:18.942659][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.416MB, max limit=2048.000MB
+[06/17 06:30:18.942671][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.416MB, max limit=2048.000MB
+[06/17 06:30:18.942683][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.415MB, max limit=2048.000MB
+[06/17 06:30:18.942695][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.415MB, max limit=2048.000MB
+[06/17 06:30:18.942707][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.414MB, max limit=2048.000MB
+[06/17 06:30:18.942720][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.414MB, max limit=2048.000MB
+[06/17 06:30:18.942731][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.413MB, max limit=2048.000MB
+[06/17 06:30:18.942744][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.413MB, max limit=2048.000MB
+[06/17 06:30:18.942756][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.412MB, max limit=2048.000MB
+[06/17 06:30:18.942768][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.412MB, max limit=2048.000MB
+[06/17 06:30:18.942780][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.411MB, max limit=2048.000MB
+[06/17 06:30:18.942793][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.411MB, max limit=2048.000MB
+[06/17 06:30:18.942805][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.410MB, max limit=2048.000MB
+[06/17 06:30:18.942817][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.410MB, max limit=2048.000MB
+[06/17 06:30:18.942829][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.410MB, max limit=2048.000MB
+[06/17 06:30:18.942841][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.409MB, max limit=2048.000MB
+[06/17 06:30:18.942853][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.409MB, max limit=2048.000MB
+[06/17 06:30:18.942865][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.408MB, max limit=2048.000MB
+[06/17 06:30:18.942876][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.408MB, max limit=2048.000MB
+[06/17 06:30:18.942901][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.407MB, max limit=2048.000MB
+[06/17 06:30:18.942914][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.407MB, max limit=2048.000MB
+[06/17 06:30:18.942926][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.406MB, max limit=2048.000MB
+[06/17 06:30:18.942939][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.406MB, max limit=2048.000MB
+[06/17 06:30:18.942951][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.405MB, max limit=2048.000MB
+[06/17 06:30:18.942963][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.405MB, max limit=2048.000MB
+[06/17 06:30:18.942975][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.404MB, max limit=2048.000MB
+[06/17 06:30:18.942987][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.404MB, max limit=2048.000MB
+[06/17 06:30:18.942999][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.403MB, max limit=2048.000MB
+[06/17 06:30:18.943010][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.403MB, max limit=2048.000MB
+[06/17 06:30:18.943021][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=53.402MB, max limit=2048.000MB
+[06/17 06:30:18.943033][debug][13573][FrameBufferManager.cpp:69] AbstractFrameBufferManager destroyed! manager type:N11libobsensor26AbstractFrameBufferManagerE,  obj addr:0x7f48000d00
+[06/17 06:30:18.943047][debug][13573][FrameBufferManager.hpp:72] FrameBufferManager destroying...! frame type: N11libobsensor10DepthFrameE,  obj addr:0x7f40000b70
+[06/17 06:30:18.943062][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=52.914MB, max limit=2048.000MB
+[06/17 06:30:18.943200][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=52.425MB, max limit=2048.000MB
+[06/17 06:30:18.943352][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=51.936MB, max limit=2048.000MB
+[06/17 06:30:18.943497][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=51.448MB, max limit=2048.000MB
+[06/17 06:30:18.943518][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=50.959MB, max limit=2048.000MB
+[06/17 06:30:18.943531][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=50.470MB, max limit=2048.000MB
+[06/17 06:30:18.943545][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=49.981MB, max limit=2048.000MB
+[06/17 06:30:18.943558][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=49.493MB, max limit=2048.000MB
+[06/17 06:30:18.943572][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=49.004MB, max limit=2048.000MB
+[06/17 06:30:18.943585][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=48.515MB, max limit=2048.000MB
+[06/17 06:30:18.943598][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=48.026MB, max limit=2048.000MB
+[06/17 06:30:18.943611][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=47.538MB, max limit=2048.000MB
+[06/17 06:30:18.943625][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=47.049MB, max limit=2048.000MB
+[06/17 06:30:18.943639][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=46.560MB, max limit=2048.000MB
+[06/17 06:30:18.943676][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=46.071MB, max limit=2048.000MB
+[06/17 06:30:18.943694][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=45.583MB, max limit=2048.000MB
+[06/17 06:30:18.943708][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=45.094MB, max limit=2048.000MB
+[06/17 06:30:18.943722][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=44.605MB, max limit=2048.000MB
+[06/17 06:30:18.943735][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=44.117MB, max limit=2048.000MB
+[06/17 06:30:18.943750][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=43.628MB, max limit=2048.000MB
+[06/17 06:30:18.943765][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=43.139MB, max limit=2048.000MB
+[06/17 06:30:18.943780][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=42.650MB, max limit=2048.000MB
+[06/17 06:30:18.943796][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=42.162MB, max limit=2048.000MB
+[06/17 06:30:18.943812][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=41.673MB, max limit=2048.000MB
+[06/17 06:30:18.943827][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=41.184MB, max limit=2048.000MB
+[06/17 06:30:18.943842][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=40.695MB, max limit=2048.000MB
+[06/17 06:30:18.943859][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=40.207MB, max limit=2048.000MB
+[06/17 06:30:18.943873][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=39.718MB, max limit=2048.000MB
+[06/17 06:30:18.943887][debug][13573][FrameBufferManager.cpp:69] AbstractFrameBufferManager destroyed! manager type:N11libobsensor26AbstractFrameBufferManagerE,  obj addr:0x7f40000b70
+[06/17 06:30:18.943903][debug][13573][FrameBufferManager.hpp:72] FrameBufferManager destroying...! frame type: N11libobsensor10DepthFrameE,  obj addr:0x7f5c293300
+[06/17 06:30:18.943935][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.336MB, total usage: allocated=39.382MB, max limit=2048.000MB
+[06/17 06:30:18.943954][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.336MB, total usage: allocated=39.046MB, max limit=2048.000MB
+[06/17 06:30:18.944102][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.336MB, total usage: allocated=38.710MB, max limit=2048.000MB
+[06/17 06:30:18.944133][debug][13573][FrameBufferManager.cpp:69] AbstractFrameBufferManager destroyed! manager type:N11libobsensor26AbstractFrameBufferManagerE,  obj addr:0x7f5c293300
+[06/17 06:30:18.944150][debug][13573][FrameBufferManager.hpp:72] FrameBufferManager destroying...! frame type: N11libobsensor10ColorFrameE,  obj addr:0x7f5c2b37a0
+[06/17 06:30:18.944170][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=38.416MB, max limit=2048.000MB
+[06/17 06:30:18.944188][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=38.123MB, max limit=2048.000MB
+[06/17 06:30:18.944204][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=37.829MB, max limit=2048.000MB
+[06/17 06:30:18.944220][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=37.536MB, max limit=2048.000MB
+[06/17 06:30:18.944236][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=37.243MB, max limit=2048.000MB
+[06/17 06:30:18.944252][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=36.949MB, max limit=2048.000MB
+[06/17 06:30:18.944301][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=36.656MB, max limit=2048.000MB
+[06/17 06:30:18.944321][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=36.362MB, max limit=2048.000MB
+[06/17 06:30:18.944338][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=36.069MB, max limit=2048.000MB
+[06/17 06:30:18.944354][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=35.775MB, max limit=2048.000MB
+[06/17 06:30:18.944371][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=35.482MB, max limit=2048.000MB
+[06/17 06:30:18.944386][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=35.189MB, max limit=2048.000MB
+[06/17 06:30:18.944404][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=34.895MB, max limit=2048.000MB
+[06/17 06:30:18.944420][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=34.602MB, max limit=2048.000MB
+[06/17 06:30:18.944435][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=34.308MB, max limit=2048.000MB
+[06/17 06:30:18.944451][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=34.015MB, max limit=2048.000MB
+[06/17 06:30:18.944466][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=33.722MB, max limit=2048.000MB
+[06/17 06:30:18.944481][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=33.428MB, max limit=2048.000MB
+[06/17 06:30:18.944496][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=33.135MB, max limit=2048.000MB
+[06/17 06:30:18.944512][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=32.841MB, max limit=2048.000MB
+[06/17 06:30:18.944527][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=32.548MB, max limit=2048.000MB
+[06/17 06:30:18.944542][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=32.255MB, max limit=2048.000MB
+[06/17 06:30:18.944558][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=31.961MB, max limit=2048.000MB
+[06/17 06:30:18.944573][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=31.668MB, max limit=2048.000MB
+[06/17 06:30:18.944589][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=31.374MB, max limit=2048.000MB
+[06/17 06:30:18.944605][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=31.081MB, max limit=2048.000MB
+[06/17 06:30:18.944621][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=30.787MB, max limit=2048.000MB
+[06/17 06:30:18.944635][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=30.494MB, max limit=2048.000MB
+[06/17 06:30:18.944650][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=30.201MB, max limit=2048.000MB
+[06/17 06:30:18.944665][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=29.907MB, max limit=2048.000MB
+[06/17 06:30:18.944680][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=29.614MB, max limit=2048.000MB
+[06/17 06:30:18.944695][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=29.320MB, max limit=2048.000MB
+[06/17 06:30:18.944710][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=29.027MB, max limit=2048.000MB
+[06/17 06:30:18.944762][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=28.734MB, max limit=2048.000MB
+[06/17 06:30:18.944783][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=28.440MB, max limit=2048.000MB
+[06/17 06:30:18.944799][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=28.147MB, max limit=2048.000MB
+[06/17 06:30:18.944815][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=27.853MB, max limit=2048.000MB
+[06/17 06:30:18.944830][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=27.560MB, max limit=2048.000MB
+[06/17 06:30:18.944847][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=27.267MB, max limit=2048.000MB
+[06/17 06:30:18.944860][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=26.973MB, max limit=2048.000MB
+[06/17 06:30:18.944875][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=26.680MB, max limit=2048.000MB
+[06/17 06:30:18.944890][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=26.386MB, max limit=2048.000MB
+[06/17 06:30:18.944905][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=26.093MB, max limit=2048.000MB
+[06/17 06:30:18.944920][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=25.800MB, max limit=2048.000MB
+[06/17 06:30:18.944937][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=25.506MB, max limit=2048.000MB
+[06/17 06:30:18.944952][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=25.213MB, max limit=2048.000MB
+[06/17 06:30:18.944967][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=24.919MB, max limit=2048.000MB
+[06/17 06:30:18.944981][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=24.626MB, max limit=2048.000MB
+[06/17 06:30:18.944997][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=24.332MB, max limit=2048.000MB
+[06/17 06:30:18.945012][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=24.039MB, max limit=2048.000MB
+[06/17 06:30:18.945026][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=23.746MB, max limit=2048.000MB
+[06/17 06:30:18.945042][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=23.452MB, max limit=2048.000MB
+[06/17 06:30:18.945058][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=23.159MB, max limit=2048.000MB
+[06/17 06:30:18.945073][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=22.865MB, max limit=2048.000MB
+[06/17 06:30:18.945088][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=22.572MB, max limit=2048.000MB
+[06/17 06:30:18.945104][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=22.279MB, max limit=2048.000MB
+[06/17 06:30:18.945119][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=21.985MB, max limit=2048.000MB
+[06/17 06:30:18.945135][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=21.692MB, max limit=2048.000MB
+[06/17 06:30:18.945150][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=21.398MB, max limit=2048.000MB
+[06/17 06:30:18.945166][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=21.105MB, max limit=2048.000MB
+[06/17 06:30:18.945181][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=20.812MB, max limit=2048.000MB
+[06/17 06:30:18.945225][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=20.518MB, max limit=2048.000MB
+[06/17 06:30:18.945246][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=20.225MB, max limit=2048.000MB
+[06/17 06:30:18.945262][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=19.931MB, max limit=2048.000MB
+[06/17 06:30:18.945277][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=19.638MB, max limit=2048.000MB
+[06/17 06:30:18.945292][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=19.344MB, max limit=2048.000MB
+[06/17 06:30:18.945307][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=19.051MB, max limit=2048.000MB
+[06/17 06:30:18.945322][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=18.758MB, max limit=2048.000MB
+[06/17 06:30:18.945337][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=18.464MB, max limit=2048.000MB
+[06/17 06:30:18.945353][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=18.171MB, max limit=2048.000MB
+[06/17 06:30:18.945369][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=17.877MB, max limit=2048.000MB
+[06/17 06:30:18.945385][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=17.584MB, max limit=2048.000MB
+[06/17 06:30:18.945402][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=17.291MB, max limit=2048.000MB
+[06/17 06:30:18.945417][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=16.997MB, max limit=2048.000MB
+[06/17 06:30:18.945431][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=16.704MB, max limit=2048.000MB
+[06/17 06:30:18.945447][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=16.410MB, max limit=2048.000MB
+[06/17 06:30:18.945463][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=16.117MB, max limit=2048.000MB
+[06/17 06:30:18.945479][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.293MB, total usage: allocated=15.824MB, max limit=2048.000MB
+[06/17 06:30:18.945493][debug][13573][FrameBufferManager.cpp:69] AbstractFrameBufferManager destroyed! manager type:N11libobsensor26AbstractFrameBufferManagerE,  obj addr:0x7f5c2b37a0
+[06/17 06:30:18.945514][debug][13573][FrameBufferManager.hpp:72] FrameBufferManager destroying...! frame type: N11libobsensor7IRFrameE,  obj addr:0x7f48000b70
+[06/17 06:30:18.945579][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=15.335MB, max limit=2048.000MB
+[06/17 06:30:18.945600][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=14.846MB, max limit=2048.000MB
+[06/17 06:30:18.945614][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=14.357MB, max limit=2048.000MB
+[06/17 06:30:18.945628][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=13.869MB, max limit=2048.000MB
+[06/17 06:30:18.945641][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=13.380MB, max limit=2048.000MB
+[06/17 06:30:18.945656][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=12.891MB, max limit=2048.000MB
+[06/17 06:30:18.945669][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=12.403MB, max limit=2048.000MB
+[06/17 06:30:18.945683][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=11.914MB, max limit=2048.000MB
+[06/17 06:30:18.945725][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=11.425MB, max limit=2048.000MB
+[06/17 06:30:18.945741][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=10.936MB, max limit=2048.000MB
+[06/17 06:30:18.945754][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=10.448MB, max limit=2048.000MB
+[06/17 06:30:18.945768][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=9.959MB, max limit=2048.000MB
+[06/17 06:30:18.945783][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=9.470MB, max limit=2048.000MB
+[06/17 06:30:18.945797][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=8.981MB, max limit=2048.000MB
+[06/17 06:30:18.945810][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=8.493MB, max limit=2048.000MB
+[06/17 06:30:18.945823][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=8.004MB, max limit=2048.000MB
+[06/17 06:30:18.945836][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=7.515MB, max limit=2048.000MB
+[06/17 06:30:18.945849][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=7.027MB, max limit=2048.000MB
+[06/17 06:30:18.945862][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=6.538MB, max limit=2048.000MB
+[06/17 06:30:18.945875][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=6.049MB, max limit=2048.000MB
+[06/17 06:30:18.945888][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=5.560MB, max limit=2048.000MB
+[06/17 06:30:18.945903][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=5.072MB, max limit=2048.000MB
+[06/17 06:30:18.945917][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=4.583MB, max limit=2048.000MB
+[06/17 06:30:18.946087][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=4.094MB, max limit=2048.000MB
+[06/17 06:30:18.946339][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=3.605MB, max limit=2048.000MB
+[06/17 06:30:18.946568][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=3.117MB, max limit=2048.000MB
+[06/17 06:30:18.946606][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=2.628MB, max limit=2048.000MB
+[06/17 06:30:18.946623][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.489MB, total usage: allocated=2.139MB, max limit=2048.000MB
+[06/17 06:30:18.946637][debug][13573][FrameBufferManager.cpp:69] AbstractFrameBufferManager destroyed! manager type:N11libobsensor26AbstractFrameBufferManagerE,  obj addr:0x7f48000b70
+[06/17 06:30:18.946656][debug][13573][FrameBufferManager.hpp:72] FrameBufferManager destroying...! frame type: N11libobsensor7IRFrameE,  obj addr:0x7f5c267ee0
+[06/17 06:30:18.946690][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.306MB, total usage: allocated=1.834MB, max limit=2048.000MB
+[06/17 06:30:18.946839][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.306MB, total usage: allocated=1.528MB, max limit=2048.000MB
+[06/17 06:30:18.946873][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.306MB, total usage: allocated=1.222MB, max limit=2048.000MB
+[06/17 06:30:18.946890][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.306MB, total usage: allocated=0.917MB, max limit=2048.000MB
+[06/17 06:30:18.946904][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.306MB, total usage: allocated=0.611MB, max limit=2048.000MB
+[06/17 06:30:18.946953][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.306MB, total usage: allocated=0.306MB, max limit=2048.000MB
+[06/17 06:30:18.946972][debug][13573][FrameBufferManager.cpp:54] Frame buffer released=0.306MB, total usage: allocated=0.000MB, max limit=2048.000MB
+[06/17 06:30:18.946986][debug][13573][FrameBufferManager.cpp:69] AbstractFrameBufferManager destroyed! manager type:N11libobsensor26AbstractFrameBufferManagerE,  obj addr:0x7f5c267ee0
+[06/17 06:30:18.947002][info][13573][Context.cpp:87] Context destroyed
+[06/17 06:30:18.947232][debug][13636][OpenNIDataProcessor.cpp:28] IR: Expected 41813, got 41893 [**2 logs in 1765ms, last: 06:30:17.383973**]
+[06/17 06:30:18.947467][debug][13638][OpenNIDataProcessor.cpp:28] Depth: Expected 139, got 246 [**1 logs in 1323ms, last: 06:30:17.724685**]
+[06/17 06:30:18.947717][debug][13622][Pipeline.cpp:268] Frame received on pipeline! type=OB_FRAME_IR [**184 logs in 20334ms, last: 06:30:16.977579**]
+[06/17 06:30:18.947898][debug][13625][Pipeline.cpp:268] Frame received on pipeline! type=OB_FRAME_COLOR [**522 logs in 19824ms, last: 06:30:16.790984**]
+[06/17 06:30:18.948062][debug][13623][Pipeline.cpp:268] Frame received on pipeline! type=OB_FRAME_DEPTH [**188 logs in 20189ms, last: 06:30:17.383403**]
