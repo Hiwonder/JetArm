@@ -1,0 +1,3 @@
+Symlinking /home/ubuntu/jetarm/devel/share/jetarm_6dof_description/cmake/jetarm_6dof_descriptionConfig.cmake
+Symlinking /home/ubuntu/jetarm/devel/share/jetarm_6dof_description/cmake/jetarm_6dof_descriptionConfig-version.cmake
+Symlinking /home/ubuntu/jetarm/devel/lib/pkgconfig/jetarm_6dof_description.pc

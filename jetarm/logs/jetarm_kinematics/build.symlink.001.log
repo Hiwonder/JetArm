@@ -1,0 +1,4 @@
+Symlinking /home/ubuntu/jetarm/devel/share/jetarm_kinematics/cmake/jetarm_kinematicsConfig-version.cmake
+Symlinking /home/ubuntu/jetarm/devel/share/jetarm_kinematics/cmake/jetarm_kinematicsConfig.cmake
+Symlinking /home/ubuntu/jetarm/devel/lib/pkgconfig/jetarm_kinematics.pc
+Symlinking /home/ubuntu/jetarm/devel/lib/python3/dist-packages/jetarm_kinematics/__init__.py

@@ -1,0 +1,10 @@
+(cl:in-package ros_robot_controller-msg)
+(cl:export '(ID-VAL
+          ID
+          ON_TIME-VAL
+          ON_TIME
+          OFF_TIME-VAL
+          OFF_TIME
+          REPEAT-VAL
+          REPEAT
+))

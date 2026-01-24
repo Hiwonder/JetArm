@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/jetarm/devel/.private/jetarm_sdk
+
+Name: jetarm_sdk
+Description: Description of jetarm_sdk
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

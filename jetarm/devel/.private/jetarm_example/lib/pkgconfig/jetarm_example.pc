@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/jetarm/devel/.private/jetarm_example
+
+Name: jetarm_example
+Description: Description of jetarm_example
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

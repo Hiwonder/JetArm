@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/jetarm/devel/.private/vision_utils
+
+Name: vision_utils
+Description: Description of vision_utils
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy

@@ -1,0 +1,52 @@
+[35m[1mScanning dependencies of target _lab_config_generate_messages_check_deps_GetRange[0m
+[  0%] Built target _lab_config_generate_messages_check_deps_GetRange
+[35m[1mScanning dependencies of target _lab_config_generate_messages_check_deps_StashRange[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target _lab_config_generate_messages_check_deps_StashRange
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target _lab_config_generate_messages_check_deps_GetAllColorName[0m
+[35m[1mScanning dependencies of target _lab_config_generate_messages_check_deps_ChangeRange[0m
+[  0%] Built target _lab_config_generate_messages_check_deps_GetAllColorName
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target _lab_config_generate_messages_check_deps_ChangeRange
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target lab_config_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  4%] [34m[1mGenerating Python code from SRV lab_config/ChangeRange[0m
+[  4%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target lab_config_generate_messages_nodejs[0m
+[  9%] [34m[1mGenerating Javascript code from lab_config/ChangeRange.srv[0m
+[ 13%] [34m[1mGenerating Javascript code from lab_config/StashRange.srv[0m
+[ 18%] [34m[1mGenerating Python code from SRV lab_config/StashRange[0m
+[ 22%] [34m[1mGenerating Javascript code from lab_config/GetRange.srv[0m
+[ 27%] [34m[1mGenerating Javascript code from lab_config/GetAllColorName.srv[0m
+[ 31%] [34m[1mGenerating Python code from SRV lab_config/GetRange[0m
+[ 31%] Built target lab_config_generate_messages_nodejs
+[ 36%] [34m[1mGenerating Python code from SRV lab_config/GetAllColorName[0m
+[ 40%] [34m[1mGenerating Python srv __init__.py for lab_config[0m
+[ 40%] Built target lab_config_generate_messages_py
+[35m[1mScanning dependencies of target lab_config_generate_messages_eus[0m
+[ 45%] [34m[1mGenerating EusLisp code from lab_config/ChangeRange.srv[0m
+[ 50%] [34m[1mGenerating EusLisp code from lab_config/StashRange.srv[0m
+[ 54%] [34m[1mGenerating EusLisp code from lab_config/GetRange.srv[0m
+[ 59%] [34m[1mGenerating EusLisp code from lab_config/GetAllColorName.srv[0m
+[ 63%] [34m[1mGenerating EusLisp manifest code for lab_config[0m
+[ 63%] Built target lab_config_generate_messages_eus
+[35m[1mScanning dependencies of target lab_config_generate_messages_lisp[0m
+[ 68%] [34m[1mGenerating Lisp code from lab_config/ChangeRange.srv[0m
+[ 72%] [34m[1mGenerating Lisp code from lab_config/StashRange.srv[0m
+[ 77%] [34m[1mGenerating Lisp code from lab_config/GetRange.srv[0m
+[ 81%] [34m[1mGenerating Lisp code from lab_config/GetAllColorName.srv[0m
+[ 81%] Built target lab_config_generate_messages_lisp
+[35m[1mScanning dependencies of target lab_config_generate_messages_cpp[0m
+[ 86%] [34m[1mGenerating C++ code from lab_config/ChangeRange.srv[0m
+[ 90%] [34m[1mGenerating C++ code from lab_config/StashRange.srv[0m
+[ 95%] [34m[1mGenerating C++ code from lab_config/GetRange.srv[0m
+[100%] [34m[1mGenerating C++ code from lab_config/GetAllColorName.srv[0m
+[100%] Built target lab_config_generate_messages_cpp
+[35m[1mScanning dependencies of target lab_config_generate_messages[0m
+[100%] Built target lab_config_generate_messages

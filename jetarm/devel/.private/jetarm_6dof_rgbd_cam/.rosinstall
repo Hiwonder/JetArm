@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ubuntu/jetarm/devel/.private/jetarm_6dof_rgbd_cam/setup.sh

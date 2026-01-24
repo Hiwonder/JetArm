@@ -1,0 +1,12 @@
+Symlinking /home/ubuntu/jetarm/devel/./setup.zsh
+Symlinking /home/ubuntu/jetarm/devel/./_setup_util.py
+Symlinking /home/ubuntu/jetarm/devel/./env.sh
+Symlinking /home/ubuntu/jetarm/devel/./local_setup.sh
+Symlinking /home/ubuntu/jetarm/devel/./setup.sh
+Symlinking /home/ubuntu/jetarm/devel/./setup.bash
+Symlinking /home/ubuntu/jetarm/devel/./local_setup.zsh
+Symlinking /home/ubuntu/jetarm/devel/./local_setup.bash
+Symlinking /home/ubuntu/jetarm/devel/./cmake.lock
+Symlinking /home/ubuntu/jetarm/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/ubuntu/jetarm/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/ubuntu/jetarm/devel/lib/pkgconfig/catkin_tools_prebuild.pc

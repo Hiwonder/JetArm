@@ -1,0 +1,4 @@
+Symlinking /home/ubuntu/jetarm/devel/share/vision_utils/cmake/vision_utilsConfig.cmake
+Symlinking /home/ubuntu/jetarm/devel/share/vision_utils/cmake/vision_utilsConfig-version.cmake
+Symlinking /home/ubuntu/jetarm/devel/lib/pkgconfig/vision_utils.pc
+Symlinking /home/ubuntu/jetarm/devel/lib/python3/dist-packages/vision_utils/__init__.py

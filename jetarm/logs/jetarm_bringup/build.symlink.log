@@ -1,0 +1,3 @@
+Symlinking /home/ubuntu/jetarm/devel/share/jetarm_bringup/cmake/jetarm_bringupConfig.cmake
+Symlinking /home/ubuntu/jetarm/devel/share/jetarm_bringup/cmake/jetarm_bringupConfig-version.cmake
+Symlinking /home/ubuntu/jetarm/devel/lib/pkgconfig/jetarm_bringup.pc

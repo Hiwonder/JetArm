@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <!--设置为功能包的路径(set as the path for function package)-->
+    <arg name="package_path" default="$(find xf_mic_asr_offline)"/>
+
+    <node pkg="xf_mic_asr_offline" type="wonderechopro_node.py" name="voice_control" output="screen">
+    </node>
+
+</launch>

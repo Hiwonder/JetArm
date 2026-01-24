@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/jetarm/devel/.private/jetarm_peripherals
+
+Name: jetarm_peripherals
+Description: Description of jetarm_peripherals
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

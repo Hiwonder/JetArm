@@ -1,0 +1,3 @@
+Symlinking /home/ubuntu/jetarm/devel/share/object_detection/cmake/object_detectionConfig.cmake
+Symlinking /home/ubuntu/jetarm/devel/share/object_detection/cmake/object_detectionConfig-version.cmake
+Symlinking /home/ubuntu/jetarm/devel/lib/pkgconfig/object_detection.pc

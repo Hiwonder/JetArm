@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/jetarm/devel/.private/color_detection
+
+Name: color_detection
+Description: Description of color_detection
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

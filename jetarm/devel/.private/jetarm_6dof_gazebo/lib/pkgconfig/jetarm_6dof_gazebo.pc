@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/jetarm/devel/.private/jetarm_6dof_gazebo
+
+Name: jetarm_6dof_gazebo
+Description: Description of jetarm_6dof_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/jetarm/devel/.private/jetarm_6dof_description
+
+Name: jetarm_6dof_description
+Description: Description of jetarm_6dof_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

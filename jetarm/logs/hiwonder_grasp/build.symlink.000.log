@@ -1,0 +1,3 @@
+Symlinking /home/ubuntu/jetarm/devel/share/hiwonder_grasp/cmake/hiwonder_graspConfig-version.cmake
+Symlinking /home/ubuntu/jetarm/devel/share/hiwonder_grasp/cmake/hiwonder_graspConfig.cmake
+Symlinking /home/ubuntu/jetarm/devel/lib/pkgconfig/hiwonder_grasp.pc

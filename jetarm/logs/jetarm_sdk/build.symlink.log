@@ -1,0 +1,4 @@
+Symlinking /home/ubuntu/jetarm/devel/share/jetarm_sdk/cmake/jetarm_sdkConfig-version.cmake
+Symlinking /home/ubuntu/jetarm/devel/share/jetarm_sdk/cmake/jetarm_sdkConfig.cmake
+Symlinking /home/ubuntu/jetarm/devel/lib/pkgconfig/jetarm_sdk.pc
+Symlinking /home/ubuntu/jetarm/devel/lib/python3/dist-packages/jetarm_sdk/__init__.py

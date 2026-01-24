@@ -1,0 +1,192 @@
+/usr/bin/cmake -S/home/ubuntu/jetarm/src/xf_mic_asr_offline -B/home/ubuntu/jetarm/build/xf_mic_asr_offline --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/ubuntu/jetarm/build/xf_mic_asr_offline/CMakeFiles /home/ubuntu/jetarm/build/xf_mic_asr_offline/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+/usr/bin/make -f CMakeFiles/_xf_mic_asr_offline_generate_messages_check_deps_SetString.dir/build.make CMakeFiles/_xf_mic_asr_offline_generate_messages_check_deps_SetString.dir/depend
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+/usr/bin/make -f CMakeFiles/_xf_mic_asr_offline_generate_messages_check_deps_GetOfflineResult.dir/build.make CMakeFiles/_xf_mic_asr_offline_generate_messages_check_deps_GetOfflineResult.dir/depend
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+cd /home/ubuntu/jetarm/build/xf_mic_asr_offline && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline/CMakeFiles/_xf_mic_asr_offline_generate_messages_check_deps_SetString.dir/DependInfo.cmake --color=
+/usr/bin/make -f CMakeFiles/_xf_mic_asr_offline_generate_messages_check_deps_BuzzerState.dir/build.make CMakeFiles/_xf_mic_asr_offline_generate_messages_check_deps_BuzzerState.dir/depend
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/depend
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/depend
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+cd /home/ubuntu/jetarm/build/xf_mic_asr_offline && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+cd /home/ubuntu/jetarm/build/xf_mic_asr_offline && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline/CMakeFiles/_xf_mic_asr_offline_generate_messages_check_deps_GetOfflineResult.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+cd /home/ubuntu/jetarm/build/xf_mic_asr_offline && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline/CMakeFiles/_xf_mic_asr_offline_generate_messages_check_deps_BuzzerState.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+cd /home/ubuntu/jetarm/build/xf_mic_asr_offline && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+cd /home/ubuntu/jetarm/build/xf_mic_asr_offline && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+/usr/bin/make -f CMakeFiles/_xf_mic_asr_offline_generate_messages_check_deps_BuzzerState.dir/build.make CMakeFiles/_xf_mic_asr_offline_generate_messages_check_deps_BuzzerState.dir/build
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+/usr/bin/make -f CMakeFiles/_xf_mic_asr_offline_generate_messages_check_deps_GetOfflineResult.dir/build.make CMakeFiles/_xf_mic_asr_offline_generate_messages_check_deps_GetOfflineResult.dir/build
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py xf_mic_asr_offline /home/ubuntu/jetarm/src/xf_mic_asr_offline/msg/BuzzerState.msg 
+/usr/bin/make -f CMakeFiles/_xf_mic_asr_offline_generate_messages_check_deps_SetString.dir/build.make CMakeFiles/_xf_mic_asr_offline_generate_messages_check_deps_SetString.dir/build
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py xf_mic_asr_offline /home/ubuntu/jetarm/src/xf_mic_asr_offline/srv/GetOfflineResult.srv 
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py xf_mic_asr_offline /home/ubuntu/jetarm/src/xf_mic_asr_offline/srv/SetString.srv 
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/build
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+make[2]: Nothing to be done for 'CMakeFiles/std_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/build
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+make[2]: Nothing to be done for 'CMakeFiles/std_msgs_generate_messages_eus.dir/build'.
+make[2]: Nothing to be done for 'CMakeFiles/std_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+[  0%] Built target std_msgs_generate_messages_py
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+cd /home/ubuntu/jetarm/build/xf_mic_asr_offline && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+[  0%] Built target std_msgs_generate_messages_cpp
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
+[  0%] Built target std_msgs_generate_messages_eus
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+cd /home/ubuntu/jetarm/build/xf_mic_asr_offline && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+make[2]: Nothing to be done for 'CMakeFiles/std_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+make[2]: Nothing to be done for 'CMakeFiles/std_msgs_generate_messages_nodejs.dir/build'.
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+[  0%] Built target _xf_mic_asr_offline_generate_messages_check_deps_BuzzerState
+[  0%] Built target _xf_mic_asr_offline_generate_messages_check_deps_GetOfflineResult
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _xf_mic_asr_offline_generate_messages_check_deps_SetString
+/usr/bin/make -f CMakeFiles/xf_mic_asr_offline_generate_messages_cpp.dir/build.make CMakeFiles/xf_mic_asr_offline_generate_messages_cpp.dir/depend
+/usr/bin/make -f CMakeFiles/xf_mic_asr_offline_generate_messages_py.dir/build.make CMakeFiles/xf_mic_asr_offline_generate_messages_py.dir/depend
+/usr/bin/make -f CMakeFiles/xf_mic_asr_offline_generate_messages_eus.dir/build.make CMakeFiles/xf_mic_asr_offline_generate_messages_eus.dir/depend
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+cd /home/ubuntu/jetarm/build/xf_mic_asr_offline && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline/CMakeFiles/xf_mic_asr_offline_generate_messages_py.dir/DependInfo.cmake --color=
+/usr/bin/make -f CMakeFiles/xf_mic_asr_offline_generate_messages_lisp.dir/build.make CMakeFiles/xf_mic_asr_offline_generate_messages_lisp.dir/depend
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+cd /home/ubuntu/jetarm/build/xf_mic_asr_offline && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline/CMakeFiles/xf_mic_asr_offline_generate_messages_cpp.dir/DependInfo.cmake --color=
+/usr/bin/make -f CMakeFiles/xf_mic_asr_offline_generate_messages_nodejs.dir/build.make CMakeFiles/xf_mic_asr_offline_generate_messages_nodejs.dir/depend
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+cd /home/ubuntu/jetarm/build/xf_mic_asr_offline && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline/CMakeFiles/xf_mic_asr_offline_generate_messages_eus.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+cd /home/ubuntu/jetarm/build/xf_mic_asr_offline && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline/CMakeFiles/xf_mic_asr_offline_generate_messages_lisp.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+cd /home/ubuntu/jetarm/build/xf_mic_asr_offline && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline/CMakeFiles/xf_mic_asr_offline_generate_messages_nodejs.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+/usr/bin/make -f CMakeFiles/xf_mic_asr_offline_generate_messages_eus.dir/build.make CMakeFiles/xf_mic_asr_offline_generate_messages_eus.dir/build
+/usr/bin/make -f CMakeFiles/xf_mic_asr_offline_generate_messages_py.dir/build.make CMakeFiles/xf_mic_asr_offline_generate_messages_py.dir/build
+/usr/bin/make -f CMakeFiles/xf_mic_asr_offline_generate_messages_lisp.dir/build.make CMakeFiles/xf_mic_asr_offline_generate_messages_lisp.dir/build
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+/usr/bin/make -f CMakeFiles/xf_mic_asr_offline_generate_messages_nodejs.dir/build.make CMakeFiles/xf_mic_asr_offline_generate_messages_nodejs.dir/build
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+/usr/bin/make -f CMakeFiles/xf_mic_asr_offline_generate_messages_cpp.dir/build.make CMakeFiles/xf_mic_asr_offline_generate_messages_cpp.dir/build
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+[  5%] [34m[1mGenerating Python from MSG xf_mic_asr_offline/BuzzerState[0m
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/jetarm/src/xf_mic_asr_offline/msg/BuzzerState.msg -Ixf_mic_asr_offline:/home/ubuntu/jetarm/src/xf_mic_asr_offline/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p xf_mic_asr_offline -o /home/ubuntu/jetarm/devel/.private/xf_mic_asr_offline/lib/python3/dist-packages/xf_mic_asr_offline/msg
+[ 10%] [34m[1mGenerating EusLisp code from xf_mic_asr_offline/BuzzerState.msg[0m
+[ 15%] [34m[1mGenerating Python code from SRV xf_mic_asr_offline/GetOfflineResult[0m
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ubuntu/jetarm/src/xf_mic_asr_offline/srv/GetOfflineResult.srv -Ixf_mic_asr_offline:/home/ubuntu/jetarm/src/xf_mic_asr_offline/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p xf_mic_asr_offline -o /home/ubuntu/jetarm/devel/.private/xf_mic_asr_offline/lib/python3/dist-packages/xf_mic_asr_offline/srv
+[ 20%] [34m[1mGenerating Lisp code from xf_mic_asr_offline/BuzzerState.msg[0m
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/jetarm/src/xf_mic_asr_offline/msg/BuzzerState.msg -Ixf_mic_asr_offline:/home/ubuntu/jetarm/src/xf_mic_asr_offline/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p xf_mic_asr_offline -o /home/ubuntu/jetarm/devel/.private/xf_mic_asr_offline/share/common-lisp/ros/xf_mic_asr_offline/msg
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ubuntu/jetarm/src/xf_mic_asr_offline/msg/BuzzerState.msg -Ixf_mic_asr_offline:/home/ubuntu/jetarm/src/xf_mic_asr_offline/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p xf_mic_asr_offline -o /home/ubuntu/jetarm/devel/.private/xf_mic_asr_offline/share/roseus/ros/xf_mic_asr_offline/msg
+[ 25%] [34m[1mGenerating Javascript code from xf_mic_asr_offline/BuzzerState.msg[0m
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/jetarm/src/xf_mic_asr_offline/msg/BuzzerState.msg -Ixf_mic_asr_offline:/home/ubuntu/jetarm/src/xf_mic_asr_offline/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p xf_mic_asr_offline -o /home/ubuntu/jetarm/devel/.private/xf_mic_asr_offline/share/gennodejs/ros/xf_mic_asr_offline/msg
+[ 30%] [34m[1mGenerating C++ code from xf_mic_asr_offline/BuzzerState.msg[0m
+cd /home/ubuntu/jetarm/src/xf_mic_asr_offline && /home/ubuntu/jetarm/build/xf_mic_asr_offline/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/jetarm/src/xf_mic_asr_offline/msg/BuzzerState.msg -Ixf_mic_asr_offline:/home/ubuntu/jetarm/src/xf_mic_asr_offline/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p xf_mic_asr_offline -o /home/ubuntu/jetarm/devel/.private/xf_mic_asr_offline/include/xf_mic_asr_offline -e /opt/ros/noetic/share/gencpp/cmake/..
+[ 35%] [34m[1mGenerating Lisp code from xf_mic_asr_offline/GetOfflineResult.srv[0m
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/jetarm/src/xf_mic_asr_offline/srv/GetOfflineResult.srv -Ixf_mic_asr_offline:/home/ubuntu/jetarm/src/xf_mic_asr_offline/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p xf_mic_asr_offline -o /home/ubuntu/jetarm/devel/.private/xf_mic_asr_offline/share/common-lisp/ros/xf_mic_asr_offline/srv
+[ 40%] [34m[1mGenerating EusLisp code from xf_mic_asr_offline/GetOfflineResult.srv[0m
+[ 45%] [34m[1mGenerating Javascript code from xf_mic_asr_offline/GetOfflineResult.srv[0m
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ubuntu/jetarm/src/xf_mic_asr_offline/srv/GetOfflineResult.srv -Ixf_mic_asr_offline:/home/ubuntu/jetarm/src/xf_mic_asr_offline/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p xf_mic_asr_offline -o /home/ubuntu/jetarm/devel/.private/xf_mic_asr_offline/share/roseus/ros/xf_mic_asr_offline/srv
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/jetarm/src/xf_mic_asr_offline/srv/GetOfflineResult.srv -Ixf_mic_asr_offline:/home/ubuntu/jetarm/src/xf_mic_asr_offline/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p xf_mic_asr_offline -o /home/ubuntu/jetarm/devel/.private/xf_mic_asr_offline/share/gennodejs/ros/xf_mic_asr_offline/srv
+[ 50%] [34m[1mGenerating C++ code from xf_mic_asr_offline/GetOfflineResult.srv[0m
+cd /home/ubuntu/jetarm/src/xf_mic_asr_offline && /home/ubuntu/jetarm/build/xf_mic_asr_offline/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/jetarm/src/xf_mic_asr_offline/srv/GetOfflineResult.srv -Ixf_mic_asr_offline:/home/ubuntu/jetarm/src/xf_mic_asr_offline/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p xf_mic_asr_offline -o /home/ubuntu/jetarm/devel/.private/xf_mic_asr_offline/include/xf_mic_asr_offline -e /opt/ros/noetic/share/gencpp/cmake/..
+[ 55%] [34m[1mGenerating Lisp code from xf_mic_asr_offline/SetString.srv[0m
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/jetarm/src/xf_mic_asr_offline/srv/SetString.srv -Ixf_mic_asr_offline:/home/ubuntu/jetarm/src/xf_mic_asr_offline/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p xf_mic_asr_offline -o /home/ubuntu/jetarm/devel/.private/xf_mic_asr_offline/share/common-lisp/ros/xf_mic_asr_offline/srv
+[ 60%] [34m[1mGenerating Python code from SRV xf_mic_asr_offline/SetString[0m
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ubuntu/jetarm/src/xf_mic_asr_offline/srv/SetString.srv -Ixf_mic_asr_offline:/home/ubuntu/jetarm/src/xf_mic_asr_offline/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p xf_mic_asr_offline -o /home/ubuntu/jetarm/devel/.private/xf_mic_asr_offline/lib/python3/dist-packages/xf_mic_asr_offline/srv
+[ 65%] [34m[1mGenerating C++ code from xf_mic_asr_offline/SetString.srv[0m
+cd /home/ubuntu/jetarm/src/xf_mic_asr_offline && /home/ubuntu/jetarm/build/xf_mic_asr_offline/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/jetarm/src/xf_mic_asr_offline/srv/SetString.srv -Ixf_mic_asr_offline:/home/ubuntu/jetarm/src/xf_mic_asr_offline/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p xf_mic_asr_offline -o /home/ubuntu/jetarm/devel/.private/xf_mic_asr_offline/include/xf_mic_asr_offline -e /opt/ros/noetic/share/gencpp/cmake/..
+[ 70%] [34m[1mGenerating Javascript code from xf_mic_asr_offline/SetString.srv[0m
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/jetarm/src/xf_mic_asr_offline/srv/SetString.srv -Ixf_mic_asr_offline:/home/ubuntu/jetarm/src/xf_mic_asr_offline/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p xf_mic_asr_offline -o /home/ubuntu/jetarm/devel/.private/xf_mic_asr_offline/share/gennodejs/ros/xf_mic_asr_offline/srv
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+[ 75%] [34m[1mGenerating EusLisp code from xf_mic_asr_offline/SetString.srv[0m
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ubuntu/jetarm/src/xf_mic_asr_offline/srv/SetString.srv -Ixf_mic_asr_offline:/home/ubuntu/jetarm/src/xf_mic_asr_offline/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p xf_mic_asr_offline -o /home/ubuntu/jetarm/devel/.private/xf_mic_asr_offline/share/roseus/ros/xf_mic_asr_offline/srv
+[ 75%] Built target xf_mic_asr_offline_generate_messages_lisp
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+[ 75%] Built target xf_mic_asr_offline_generate_messages_nodejs
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+[ 80%] [34m[1mGenerating Python srv __init__.py for xf_mic_asr_offline[0m
+[ 85%] Built target xf_mic_asr_offline_generate_messages_eus
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/ubuntu/jetarm/devel/.private/xf_mic_asr_offline/lib/python3/dist-packages/xf_mic_asr_offline/srv --initpy
+[ 90%] [34m[1mGenerating Python msg __init__.py for xf_mic_asr_offline[0m
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/ubuntu/jetarm/devel/.private/xf_mic_asr_offline/lib/python3/dist-packages/xf_mic_asr_offline/msg --initpy
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+[ 90%] Built target xf_mic_asr_offline_generate_messages_cpp
+/usr/bin/make -f CMakeFiles/xf_mic_asr_offline_gencpp.dir/build.make CMakeFiles/xf_mic_asr_offline_gencpp.dir/depend
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+cd /home/ubuntu/jetarm/build/xf_mic_asr_offline && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline/CMakeFiles/xf_mic_asr_offline_gencpp.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+/usr/bin/make -f CMakeFiles/xf_mic_asr_offline_gencpp.dir/build.make CMakeFiles/xf_mic_asr_offline_gencpp.dir/build
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+make[2]: Nothing to be done for 'CMakeFiles/xf_mic_asr_offline_gencpp.dir/build'.
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+[ 90%] Built target xf_mic_asr_offline_gencpp
+/usr/bin/make -f CMakeFiles/voice_control.dir/build.make CMakeFiles/voice_control.dir/depend
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+cd /home/ubuntu/jetarm/build/xf_mic_asr_offline && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline/CMakeFiles/voice_control.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target voice_control[0m
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+/usr/bin/make -f CMakeFiles/voice_control.dir/build.make CMakeFiles/voice_control.dir/build
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+[ 95%] [32mBuilding CXX object CMakeFiles/voice_control.dir/src/voice_control.cpp.o[0m
+/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"xf_mic_asr_offline\" -I/home/ubuntu/jetarm/devel/.private/xf_mic_asr_offline/include -I/home/ubuntu/jetarm/src/xf_mic_asr_offline/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g    -std=c++11 -o CMakeFiles/voice_control.dir/src/voice_control.cpp.o -c /home/ubuntu/jetarm/src/xf_mic_asr_offline/src/voice_control.cpp
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+[ 95%] Built target xf_mic_asr_offline_generate_messages_py
+/usr/bin/make -f CMakeFiles/xf_mic_asr_offline_generate_messages.dir/build.make CMakeFiles/xf_mic_asr_offline_generate_messages.dir/depend
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+cd /home/ubuntu/jetarm/build/xf_mic_asr_offline && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/src/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline /home/ubuntu/jetarm/build/xf_mic_asr_offline/CMakeFiles/xf_mic_asr_offline_generate_messages.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+/usr/bin/make -f CMakeFiles/xf_mic_asr_offline_generate_messages.dir/build.make CMakeFiles/xf_mic_asr_offline_generate_messages.dir/build
+make[2]: Entering directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+make[2]: Nothing to be done for 'CMakeFiles/xf_mic_asr_offline_generate_messages.dir/build'.
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+[ 95%] Built target xf_mic_asr_offline_generate_messages
+[01m[K/home/ubuntu/jetarm/src/xf_mic_asr_offline/src/voice_control.cpp:[m[K In function ‘[01m[Kbool Get_Offline_Recognise_Result(xf_mic_asr_offline::GetOfflineResult::Request&, xf_mic_asr_offline::GetOfflineResult::Response&)[m[K’:
+[01m[K/home/ubuntu/jetarm/src/xf_mic_asr_offline/src/voice_control.cpp:213:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+  213 |   whole_result = [01;35m[K""[m[K;
+      |                  [01;35m[K^~[m[K
+[01m[K/home/ubuntu/jetarm/src/xf_mic_asr_offline/src/voice_control.cpp:[m[K In function ‘[01m[Kint business_data(unsigned char*)[m[K’:
+[01m[K/home/ubuntu/jetarm/src/xf_mic_asr_offline/src/voice_control.cpp:95:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+   95 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX executable /home/ubuntu/jetarm/devel/.private/xf_mic_asr_offline/lib/xf_mic_asr_offline/voice_control[0m
+/usr/bin/cmake -E cmake_link_script CMakeFiles/voice_control.dir/link.txt --verbose=1
+/usr/bin/c++    -g   -rdynamic CMakeFiles/voice_control.dir/src/voice_control.cpp.o  -o /home/ubuntu/jetarm/devel/.private/xf_mic_asr_offline/lib/xf_mic_asr_offline/voice_control   -L/home/ubuntu/share/tmp/xf_mic_asr_offline/lib/arm64  -L/home/ubuntu/jetarm/src/xf_mic_asr_offline/lib/arm64  -Wl,-rpath,/home/ubuntu/share/tmp/xf_mic_asr_offline/lib/arm64:/home/ubuntu/jetarm/src/xf_mic_asr_offline/lib/arm64:/opt/ros/noetic/lib /opt/ros/noetic/lib/libroscpp.so -lpthread /usr/lib/aarch64-linux-gnu/libboost_chrono.so.1.71.0 /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0 /opt/ros/noetic/lib/librosconsole.so /opt/ros/noetic/lib/librosconsole_log4cxx.so /opt/ros/noetic/lib/librosconsole_backend_interface.so -llog4cxx /usr/lib/aarch64-linux-gnu/libboost_regex.so.1.71.0 /opt/ros/noetic/lib/libxmlrpcpp.so /opt/ros/noetic/lib/libroscpp_serialization.so /opt/ros/noetic/lib/librostime.so /usr/lib/aarch64-linux-gnu/libboost_date_time.so.1.71.0 /opt/ros/noetic/lib/libcpp_common.so /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0 /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.71.0 /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.0.4 -loffline_record_lib -lrt -ldl -lpthread -lstdc++ 
+make[2]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+[100%] Built target voice_control
+make[1]: Leaving directory '/home/ubuntu/jetarm/build/xf_mic_asr_offline'
+/usr/bin/cmake -E cmake_progress_start /home/ubuntu/jetarm/build/xf_mic_asr_offline/CMakeFiles 0

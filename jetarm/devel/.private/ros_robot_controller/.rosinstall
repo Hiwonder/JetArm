@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ubuntu/jetarm/devel/.private/ros_robot_controller/setup.sh

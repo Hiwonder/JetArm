@@ -1,0 +1,3 @@
+Symlinking /home/ubuntu/jetarm/devel/share/dataset_capture/cmake/dataset_captureConfig.cmake
+Symlinking /home/ubuntu/jetarm/devel/share/dataset_capture/cmake/dataset_captureConfig-version.cmake
+Symlinking /home/ubuntu/jetarm/devel/lib/pkgconfig/dataset_capture.pc

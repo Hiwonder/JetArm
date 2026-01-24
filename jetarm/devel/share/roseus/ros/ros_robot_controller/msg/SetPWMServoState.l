@@ -1,0 +1,94 @@
+;; Auto-generated. Do not edit!
+
+
+(when (boundp 'ros_robot_controller::SetPWMServoState)
+  (if (not (find-package "ROS_ROBOT_CONTROLLER"))
+    (make-package "ROS_ROBOT_CONTROLLER"))
+  (shadow 'SetPWMServoState (find-package "ROS_ROBOT_CONTROLLER")))
+(unless (find-package "ROS_ROBOT_CONTROLLER::SETPWMSERVOSTATE")
+  (make-package "ROS_ROBOT_CONTROLLER::SETPWMSERVOSTATE"))
+
+(in-package "ROS")
+;;//! \htmlinclude SetPWMServoState.msg.html
+
+
+(defclass ros_robot_controller::SetPWMServoState
+  :super ros::object
+  :slots (_state _duration ))
+
+(defmethod ros_robot_controller::SetPWMServoState
+  (:init
+   (&key
+    ((:state __state) ())
+    ((:duration __duration) 0.0)
+    )
+   (send-super :init)
+   (setq _state __state)
+   (setq _duration (float __duration))
+   self)
+  (:state
+   (&rest __state)
+   (if (keywordp (car __state))
+       (send* _state __state)
+     (progn
+       (if __state (setq _state (car __state)))
+       _state)))
+  (:duration
+   (&optional __duration)
+   (if __duration (setq _duration __duration)) _duration)
+  (:serialization-length
+   ()
+   (+
+    ;; ros_robot_controller/PWMServoState[] _state
+    (apply #'+ (send-all _state :serialization-length)) 4
+    ;; float64 _duration
+    8
+    ))
+  (:serialize
+   (&optional strm)
+   (let ((s (if strm strm
+              (make-string-output-stream (send self :serialization-length)))))
+     ;; ros_robot_controller/PWMServoState[] _state
+     (write-long (length _state) s)
+     (dolist (elem _state)
+       (send elem :serialize s)
+       )
+     ;; float64 _duration
+       (sys::poke _duration (send s :buffer) (send s :count) :double) (incf (stream-count s) 8)
+     ;;
+     (if (null strm) (get-output-stream-string s))))
+  (:deserialize
+   (buf &optional (ptr- 0))
+   ;; ros_robot_controller/PWMServoState[] _state
+   (let (n)
+     (setq n (sys::peek buf ptr- :integer)) (incf ptr- 4)
+     (setq _state (let (r) (dotimes (i n) (push (instance ros_robot_controller::PWMServoState :init) r)) r))
+     (dolist (elem- _state)
+     (send elem- :deserialize buf ptr-) (incf ptr- (send elem- :serialization-length))
+     ))
+   ;; float64 _duration
+     (setq _duration (sys::peek buf ptr- :double)) (incf ptr- 8)
+   ;;
+   self)
+  )
+
+(setf (get ros_robot_controller::SetPWMServoState :md5sum-) "755ec4886ec626286881531bdc39b1ad")
+(setf (get ros_robot_controller::SetPWMServoState :datatype-) "ros_robot_controller/SetPWMServoState")
+(setf (get ros_robot_controller::SetPWMServoState :definition-)
+      "ros_robot_controller/PWMServoState[] state
+
+float64 duration
+
+================================================================================
+MSG: ros_robot_controller/PWMServoState
+uint16[] id
+uint16[] position
+int16[] offset
+
+")
+
+
+
+(provide :ros_robot_controller/SetPWMServoState "755ec4886ec626286881531bdc39b1ad")
+
+
