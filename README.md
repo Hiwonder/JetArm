@@ -3,7 +3,7 @@
 English | [中文](README_cn.md)
 
 <p align="center">
-  <img src="./sources/images/jetarm.png" alt="JetArm Logo" width="600"/>
+  <img src="./sources/jetarm 1.png" alt="JetArm 1" width="600"/>
 </p>
 
 ## Product Overview
@@ -15,6 +15,10 @@ Have you ever imagined giving your robotics projects a pair of eyes that can tru
 The Hiwonder JetArm was born from this very need. It is more than a robotic arm; it is an open research platform built on the ROS framework, deeply integrating 3D vision and edge AI computing. We believe breakthroughs begin with perception — by equipping a high-performance 3D depth camera, JetArm captures RGB images and depth point cloud data of its environment. This allows it to precisely understand an object's shape, pose, and spatial relationships. Freed from the limitations of a flat plane, it can achieve free-form grasping and complex task planning in real 3D space.
 
 This is JetArm's starting point: the ultimate partner for your AI algorithms to interact precisely with 3D objects in the physical world. Whether for robotics education, cutting-edge embodied AI research, or building impressive creative AI projects, JetArm provides a powerful, fully open-source foundation.
+
+<p align="center">
+  <img src="./sources/jetarm 2.png" alt="JetArm 2" width="600"/>
+</p>
 
 ### The Core: A Hardware-Software System Engineered for Spatial Intelligence
 
@@ -35,6 +39,10 @@ JetArm comes pre-installed with a Linux-based system deeply integrated with the 
 **Full-Stack Technology Experience**: Through JetArm projects, you can gain hands-on experience with a suite of cutting-edge robotics technologies: ROS programming, 3D vision (point cloud processing), OpenCV, deep learning models like YOLO/MediaPipe, inverse kinematics, MoveIt!, Gazebo simulation, and more.
 
 **Multimodal AI Integration**: Thanks to the powerful computing capabilities of the Jetson platform, JetArm can support and run multimodal large language models. Combined with its 3D vision and microphone array, it enables complex, natural language-based task understanding and interaction, turning the concept of Embodied AI into a tangible, hands-on experiment.
+
+<p align="center">
+  <img src="./sources/jetarm 3.png" alt="JetArm 3" width="600"/>
+</p>
 
 ### Extensibility & Learning: Your Canvas for Creativity
 
